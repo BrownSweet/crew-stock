@@ -1,0 +1,1365 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"overview\":{\"metrics\":{\"pe\":{\"circle\":\"206.6400\",\"part\":\"6.5684\",\"metric\":\"31.46x\",\"desc\":\"当前市盈率 <strong>31.46</strong>，<strong>低于</strong>合理区间，比近 <strong>5</strong> 年 <strong>97.93%</strong> 的时间便宜，行业排名 <strong>15/89</strong>，行业中位数 <strong>15.50</strong>。\",\"industry_median\":\"15.50\"}},\"indicator\":\"pe\",\"range\":5,\"date\":\"2026 年 8 月 3 日\",\"ccy_symbol\":\"$\",\"aichat_data\":{\"agent_id\":\"chatbot\",\"handoff_agent_id\":\"fkl5safices4\",\"symbol\":\"NVDA.US\",\"text\":\"估值分析\",\"type\":\"newChat\",\"workflow_type\":\"valuation\"},\"ai_summary\":\"当前市盈率 <strong>31.46</strong>，<strong>低于</strong>合理区间，比近 <strong>5</strong> 年 <strong>97.93%</strong> 的时间便宜，行业排名 <strong>15/89</strong>，行业中位数 <strong>15.50</strong>。\"},\"history\":{\"metrics\":{\"pe\":{\"low\":\"44.65\",\"median\":\"59.83\",\"high\":\"80.30\",\"desc\":\"当前市盈率 <strong>31.46</strong>，<strong>低于</strong>合理区间，比近 <strong>5</strong> 年 <strong>97.93%</strong> 的时间便宜，行业排名 <strong>15/89</strong>，行业中位数 <strong>15.50</strong>。\",\"list\":[{\"timestamp\":\"2021-09-01T04:00:00Z\",\"value\":\"79.88\"},{\"timestamp\":\"2021-10-01T04:00:00Z\",\"value\":\"73.03\"},{\"timestamp\":\"2021-11-01T04:00:00Z\",\"value\":\"78.56\"},{\"timestamp\":\"2021-12-01T05:00:00Z\",\"value\":\"95.62\"},{\"timestamp\":\"2022-01-01T05:00:00Z\",\"value\":\"89.46\"},{\"timestamp\":\"2022-02-01T05:00:00Z\",\"value\":\"63.16\"},{\"timestamp\":\"2022-03-01T05:00:00Z\",\"value\":\"60.19\"},{\"timestamp\":\"2022-04-01T04:00:00Z\",\"value\":\"68.48\"},{\"timestamp\":\"2022-05-01T04:00:00Z\",\"value\":\"49.10\"},{\"timestamp\":\"2022-06-01T04:00:00Z\",\"value\":\"48.50\"},{\"timestamp\":\"2022-07-01T04:00:00Z\",\"value\":\"38.45\"},{\"timestamp\":\"2022-08-01T04:00:00Z\",\"value\":\"58.17\"},{\"timestamp\":\"2022-09-01T04:00:00Z\",\"value\":\"45.08\"},{\"timestamp\":\"2022-10-01T04:00:00Z\",\"value\":\"39.27\"},{\"timestamp\":\"2022-11-01T04:00:00Z\",\"value\":\"56.59\"},{\"timestamp\":\"2022-12-01T05:00:00Z\",\"value\":\"71.59\"},{\"timestamp\":\"2023-01-01T05:00:00Z\",\"value\":\"61.06\"},{\"timestamp\":\"2023-02-01T05:00:00Z\",\"value\":\"110.07\"},{\"timestamp\":\"2023-03-01T05:00:00Z\",\"value\":\"130.80\"},{\"timestamp\":\"2023-04-01T04:00:00Z\",\"value\":\"156.50\"},{\"timestamp\":\"2023-05-01T04:00:00Z\",\"value\":\"148.75\"},{\"timestamp\":\"2023-06-01T04:00:00Z\",\"value\":\"204.63\"},{\"timestamp\":\"2023-07-01T04:00:00Z\",\"value\":\"217.66\"},{\"timestamp\":\"2023-08-01T04:00:00Z\",\"value\":\"111.39\"},{\"timestamp\":\"2023-09-01T04:00:00Z\",\"value\":\"116.18\"},{\"timestamp\":\"2023-10-01T04:00:00Z\",\"value\":\"104.18\"},{\"timestamp\":\"2023-11-01T04:00:00Z\",\"value\":\"55.35\"},{\"timestamp\":\"2023-12-01T05:00:00Z\",\"value\":\"61.15\"},{\"timestamp\":\"2024-01-01T05:00:00Z\",\"value\":\"64.76\"},{\"timestamp\":\"2024-02-01T05:00:00Z\",\"value\":\"52.31\"},{\"timestamp\":\"2024-03-01T05:00:00Z\",\"value\":\"68.29\"},{\"timestamp\":\"2024-04-01T04:00:00Z\",\"value\":\"75.00\"},{\"timestamp\":\"2024-05-01T04:00:00Z\",\"value\":\"68.68\"},{\"timestamp\":\"2024-06-01T04:00:00Z\",\"value\":\"63.25\"},{\"timestamp\":\"2024-07-01T04:00:00Z\",\"value\":\"71.71\"},{\"timestamp\":\"2024-08-01T04:00:00Z\",\"value\":\"63.00\"},{\"timestamp\":\"2024-09-01T04:00:00Z\",\"value\":\"55.24\"},{\"timestamp\":\"2024-10-01T04:00:00Z\",\"value\":\"54.14\"},{\"timestamp\":\"2024-11-01T04:00:00Z\",\"value\":\"62.66\"},{\"timestamp\":\"2024-12-01T05:00:00Z\",\"value\":\"53.68\"},{\"timestamp\":\"2025-01-01T05:00:00Z\",\"value\":\"52.14\"},{\"timestamp\":\"2025-02-01T05:00:00Z\",\"value\":\"46.62\"},{\"timestamp\":\"2025-03-01T05:00:00Z\",\"value\":\"41.82\"},{\"timestamp\":\"2025-04-01T04:00:00Z\",\"value\":\"36.88\"},{\"timestamp\":\"2025-05-01T04:00:00Z\",\"value\":\"37.37\"},{\"timestamp\":\"2025-06-01T04:00:00Z\",\"value\":\"42.95\"},{\"timestamp\":\"2025-07-01T04:00:00Z\",\"value\":\"48.72\"},{\"timestamp\":\"2025-08-01T04:00:00Z\",\"value\":\"55.21\"},{\"timestamp\":\"2025-09-01T04:00:00Z\",\"value\":\"48.88\"},{\"timestamp\":\"2025-10-01T04:00:00Z\",\"value\":\"52.54\"},{\"timestamp\":\"2025-11-01T04:00:00Z\",\"value\":\"56.82\"},{\"timestamp\":\"2025-12-01T05:00:00Z\",\"value\":\"44.07\"},{\"timestamp\":\"2026-01-01T05:00:00Z\",\"value\":\"45.68\"},{\"timestamp\":\"2026-02-01T05:00:00Z\",\"value\":\"46.82\"},{\"timestamp\":\"2026-03-01T05:00:00Z\",\"value\":\"35.86\"},{\"timestamp\":\"2026-04-01T04:00:00Z\",\"value\":\"35.57\"},{\"timestamp\":\"2026-05-01T04:00:00Z\",\"value\":\"40.16\"},{\"timestamp\":\"2026-06-01T04:00:00Z\",\"value\":\"34.16\"},{\"timestamp\":\"2026-07-01T04:00:00Z\",\"value\":\"30.08\"},{\"timestamp\":\"2026-08-01T04:00:00Z\",\"value\":\"30.56\"}]}},\"range\":5},\"peers\":{\"pe\":{\"industry_median\":\"15.50\",\"list\":[{\"symbol\":\"AVGO.US\",\"ticker\":\"\",\"value\":\"63.6513\",\"growth\":\"\",\"name\":\"博通\"},{\"symbol\":\"NVDA.US\",\"ticker\":\"\",\"value\":\"31.4595\",\"growth\":\"\",\"name\":\"英伟达\"},{\"symbol\":\"TSM.US\",\"ticker\":\"\",\"value\":\"29.8570\",\"growth\":\"\",\"name\":\"台积电\"},{\"symbol\":\"SKHY.US\",\"ticker\":\"\",\"value\":\"20.8429\",\"growth\":\"\",\"name\":\"SK海力士\"},{\"symbol\":\"MU.US\",\"ticker\":\"\",\"value\":\"18.5625\",\"growth\":\"\",\"name\":\"美光科技\"}]}},\"layouts\":{\"pe\":{\"step\":\"20\",\"industry_median\":\"15.50\",\"groups\":[{\"list\":[{\"symbol\":\"INTC.US\",\"ticker\":\"\",\"value\":\"-40.256356\",\"growth\":\"-3747.06666666666667\",\"name\":\"\"},{\"symbol\":\"SITM.US\",\"ticker\":\"\",\"value\":\"-599.212242\",\"growth\":\"268.15058139534884\",\"name\":\"\"},{\"symbol\":\"SMTC.US\",\"ticker\":\"\",\"value\":\"-334.532875\",\"growth\":\"439.75217391304348\",\"name\":\"\"},{\"symbol\":\"SLAB.US\",\"ticker\":\"\",\"value\":\"-142.846533\",\"growth\":\"43.92929292929293\",\"name\":\"\"},{\"symbol\":\"MXL.US\",\"ticker\":\"\",\"value\":\"-58.659201\",\"growth\":\"93.38924050632911\",\"name\":\"\"},{\"symbol\":\"RGTI.US\",\"ticker\":\"\",\"value\":\"-23.591303\",\"growth\":\"78.75\",\"name\":\"\"},{\"symbol\":\"PI.US\",\"ticker\":\"\",\"value\":\"-182.190088\",\"growth\":\"-21.91081081081081\",\"name\":\"\"},{\"symbol\":\"SYNA.US\",\"ticker\":\"\",\"value\":\"-85.856676\",\"growth\":\"2.63688524590164\",\"name\":\"\"},{\"symbol\":\"AMBA.US\",\"ticker\":\"\",\"value\":\"-52.089926\",\"growth\":\"23.40842696629213\",\"name\":\"\"},{\"symbol\":\"NVTS.US\",\"ticker\":\"\",\"value\":\"-9.607979\",\"growth\":\"-121.05263157894737\",\"name\":\"\"},{\"symbol\":\"AMBQ.US\",\"ticker\":\"\",\"value\":\"-40.869938\",\"growth\":\"53.36433260393873\",\"name\":\"\"},{\"symbol\":\"TE.US\",\"ticker\":\"\",\"value\":\"-3.582745\",\"growth\":\"85.29680365296804\",\"name\":\"\"},{\"symbol\":\"POET.US\",\"ticker\":\"\",\"value\":\"-15.558114\",\"growth\":\"58.82352941176471\",\"name\":\"\"},{\"symbol\":\"WOLF.US\",\"ticker\":\"\",\"value\":\"-2.265292\",\"growth\":\"98.81942756741195\",\"name\":\"\"},{\"symbol\":\"CSIQ.US\",\"ticker\":\"\",\"value\":\"-10.293752\",\"growth\":\"39.4292\",\"name\":\"\"},{\"symbol\":\"AOSL.US\",\"ticker\":\"\",\"value\":\"-8.863871\",\"growth\":\"54.84848484848485\",\"name\":\"\"},{\"symbol\":\"CEVA.US\",\"ticker\":\"\",\"value\":\"-78.749465\",\"growth\":\"42.63863636363636\",\"name\":\"\"},{\"symbol\":\"JKS.US\",\"ticker\":\"\",\"value\":\"-1.618085\",\"growth\":\"77.129019109502\",\"name\":\"\"},{\"symbol\":\"INDI.US\",\"ticker\":\"\",\"value\":\"-5.063436\",\"growth\":\"17.65479452054795\",\"name\":\"\"},{\"symbol\":\"LAES.US\",\"ticker\":\"\",\"value\":\"-13.132158\",\"growth\":\"\",\"name\":\"\"},{\"symbol\":\"DVLT.US\",\"ticker\":\"\",\"value\":\"-2.488600\",\"growth\":\"82.69230769230769\",\"name\":\"\"},{\"symbol\":\"QUIK.US\",\"ticker\":\"\",\"value\":\"-16.466348\",\"growth\":\"74.72527472527473\",\"name\":\"\"},{\"symbol\":\"GSIT.US\",\"ticker\":\"\",\"value\":\"-14.722109\",\"growth\":\"\",\"name\":\"\"},{\"symbol\":\"VLN.US\",\"ticker\":\"\",\"value\":\"-5.591135\",\"growth\":\"11.29032258064516\",\"name\":\"\"},{\"symbol\":\"GCTS.US\",\"ticker\":\"\",\"value\":\"-3.627221\",\"growth\":\"47.5609756097561\",\"name\":\"\"},{\"symbol\":\"MX.US\",\"ticker\":\"\",\"value\":\"-4.136009\",\"growth\":\"\",\"name\":\"\"},{\"symbol\":\"BZAI.US\",\"ticker\":\"\",\"value\":\"-1.452236\",\"growth\":\"69.94949494949495\",\"name\":\"\"},{\"symbol\":\"WKEY.US\",\"ticker\":\"\",\"value\":\"-12.079863\",\"growth\":\"238.30146266528682\",\"name\":\"\"},{\"symbol\":\"IPWR.US\",\"ticker\":\"\",\"value\":\"-5.383827\",\"growth\":\"0.86206896551724\",\"name\":\"\"},{\"symbol\":\"ICG.US\",\"ticker\":\"\",\"value\":\"-7.654693\",\"growth\":\"36.66666666666667\",\"name\":\"\"},{\"symbol\":\"SQNS.US\",\"ticker\":\"\",\"value\":\"-0.249675\",\"growth\":\"57.45131244707875\",\"name\":\"\"},{\"symbol\":\"GUER.US\",\"ticker\":\"\",\"value\":\"-10.715560\",\"growth\":\"\",\"name\":\"\"},{\"symbol\":\"ASTI.US\",\"ticker\":\"\",\"value\":\"-3.446188\",\"growth\":\"\",\"name\":\"\"},{\"symbol\":\"LEDS.US\",\"ticker\":\"\",\"value\":\"-17.914849\",\"growth\":\"\",\"name\":\"\"},{\"symbol\":\"MOBX.US\",\"ticker\":\"\",\"value\":\"-0.450227\",\"growth\":\"\",\"name\":\"\"},{\"symbol\":\"PRSO.US\",\"ticker\":\"\",\"value\":\"-1.550594\",\"growth\":\"65.67164179104478\",\"name\":\"\"},{\"symbol\":\"SMTK.US\",\"ticker\":\"\",\"value\":\"-0.160012\",\"growth\":\"\",\"name\":\"\"},{\"symbol\":\"MAXNQ.US\",\"ticker\":\"\",\"value\":\"-0.000305\",\"growth\":\"\",\"name\":\"\"},{\"symbol\":\"SELXF.US\",\"ticker\":\"\",\"value\":\"-0.020666\",\"growth\":\"\",\"name\":\"\"},{\"symbol\":\"SPIEQ.US\",\"ticker\":\"\",\"value\":\"\",\"growth\":\"\",\"name\":\"\"},{\"symbol\":\"MMATQ.US\",\"ticker\":\"\",\"value\":\"\",\"growth\":\"\",\"name\":\"\"},{\"symbol\":\"SIVEF.US\",\"ticker\":\"\",\"value\":\"\",\"growth\":\"\",\"name\":\"\"},{\"symbol\":\"QNC.US\",\"ticker\":\"\",\"value\":\"\",\"growth\":\"\",\"name\":\"\"}]},{\"list\":[{\"symbol\":\"MU.US\",\"ticker\":\"\",\"value\":\"18.562516\",\"growth\":\"856.14176548089592\",\"name\":\"\"},{\"symbol\":\"KXIAY.US\",\"ticker\":\"\",\"value\":\"19.721304\",\"growth\":\"\",\"name\":\"\"},{\"symbol\":\"QCOM.US\",\"ticker\":\"\",\"value\":\"17.464923\",\"growth\":\"157.92734530938124\",\"name\":\"\"},{\"symbol\":\"NXPI.US\",\"ticker\":\"\",\"value\":\"19.000888\",\"growth\":\"85.33647798742138\",\"name\":\"\"},{\"symbol\":\"UMC.US\",\"ticker\":\"\",\"value\":\"17.676220\",\"growth\":\"61.45488721804511\",\"name\":\"\"},{\"symbol\":\"FSLR.US\",\"ticker\":\"\",\"value\":\"14.324882\",\"growth\":\"22.71527093596059\",\"name\":\"\"},{\"symbol\":\"QRVO.US\",\"ticker\":\"\",\"value\":\"19.777087\",\"growth\":\"28.17734806629834\",\"name\":\"\"},{\"symbol\":\"CRUS.US\",\"ticker\":\"\",\"value\":\"15.501980\",\"growth\":\"0.12738853503185\",\"name\":\"\"},{\"symbol\":\"OLED.US\",\"ticker\":\"\",\"value\":\"18.744520\",\"growth\":\"-17.43720472440945\",\"name\":\"\"},{\"symbol\":\"TOYO.US\",\"ticker\":\"\",\"value\":\"3.516702\",\"growth\":\"103.09734513274336\",\"name\":\"\"},{\"symbol\":\"NA.US\",\"ticker\":\"\",\"value\":\"2.261796\",\"growth\":\"\",\"name\":\"\"}]},{\"list\":[{\"symbol\":\"NVDA.US\",\"ticker\":\"\",\"value\":\"31.459543\",\"growth\":\"92.95163265306122\",\"name\":\"\"},{\"symbol\":\"TSM.US\",\"ticker\":\"\",\"value\":\"29.856952\",\"growth\":\"58.50816901408451\",\"name\":\"\"},{\"symbol\":\"SKHY.US\",\"ticker\":\"\",\"value\":\"20.842867\",\"growth\":\"\",\"name\":\"\"},{\"symbol\":\"GFS.US\",\"ticker\":\"\",\"value\":\"35.270602\",\"growth\":\"-15.24276729559748\",\"name\":\"\"},{\"symbol\":\"SWKS.US\",\"ticker\":\"\",\"value\":\"31.776565\",\"growth\":\"-51.62012987012987\",\"name\":\"\"},{\"symbol\":\"SIMO.US\",\"ticker\":\"\",\"value\":\"29.431756\",\"growth\":\"243.23516483516484\",\"name\":\"\"},{\"symbol\":\"PENG.US\",\"ticker\":\"\",\"value\":\"35.505519\",\"growth\":\"535.71428571428571\",\"name\":\"\"},{\"symbol\":\"NVEC.US\",\"ticker\":\"\",\"value\":\"33.000261\",\"growth\":\"\",\"name\":\"\"}]},{\"list\":[{\"symbol\":\"TXN.US\",\"ticker\":\"\",\"value\":\"40.834329\",\"growth\":\"55.96385321100917\",\"name\":\"\"},{\"symbol\":\"ADI.US\",\"ticker\":\"\",\"value\":\"53.197729\",\"growth\":\"108.13179824561404\",\"name\":\"\"},{\"symbol\":\"ASX.US\",\"ticker\":\"\",\"value\":\"42.228352\",\"growth\":\"96.11733800350263\",\"name\":\"\"},{\"symbol\":\"ON.US\",\"ticker\":\"\",\"value\":\"50.180128\",\"growth\":\"655.76551724137931\",\"name\":\"\"},{\"symbol\":\"RMBS.US\",\"ticker\":\"\",\"value\":\"41.727488\",\"growth\":\"18.56255924170616\",\"name\":\"\"},{\"symbol\":\"DIOD.US\",\"ticker\":\"\",\"value\":\"44.151542\",\"growth\":\"77.62237762237762\",\"name\":\"\"}]},{\"list\":[{\"symbol\":\"AVGO.US\",\"ticker\":\"\",\"value\":\"63.651318\",\"growth\":\"88.79014675052411\",\"name\":\"\"},{\"symbol\":\"MRVL.US\",\"ticker\":\"\",\"value\":\"67.050890\",\"growth\":\"-39.74951140065147\",\"name\":\"\"},{\"symbol\":\"IFNNY.US\",\"ticker\":\"\",\"value\":\"73.410267\",\"growth\":\"\",\"name\":\"\"},{\"symbol\":\"HIMX.US\",\"ticker\":\"\",\"value\":\"69.794395\",\"growth\":\"58.73015873015873\",\"name\":\"\"},{\"symbol\":\"IMOS.US\",\"ticker\":\"\",\"value\":\"63.481673\",\"growth\":\"\",\"name\":\"\"}]},{\"list\":[{\"symbol\":\"MPWR.US\",\"ticker\":\"\",\"value\":\"82.380897\",\"growth\":\"76.96360784313725\",\"name\":\"\"},{\"symbol\":\"STM.US\",\"ticker\":\"\",\"value\":\"99.538219\",\"growth\":\"574.22777777777778\",\"name\":\"\"},{\"symbol\":\"CRDO.US\",\"ticker\":\"\",\"value\":\"86.214820\",\"growth\":\"99.16334661354582\",\"name\":\"\"}]},{\"list\":[{\"symbol\":\"STMEF.US\",\"ticker\":\"\",\"value\":\"100.568102\",\"growth\":\"\",\"name\":\"\"},{\"symbol\":\"TSEM.US\",\"ticker\":\"\",\"value\":\"107.665288\",\"growth\":\"53.60824742268041\",\"name\":\"\"},{\"symbol\":\"MTSI.US\",\"ticker\":\"\",\"value\":\"110.546685\",\"growth\":\"542.63835616438356\",\"name\":\"\"}]},{\"list\":[]},{\"list\":[{\"symbol\":\"AMD.US\",\"ticker\":\"\",\"value\":\"157.766878\",\"growth\":\"103.45245283018868\",\"name\":\"\"}]},{\"list\":[]},{\"list\":[]},{\"list\":[{\"symbol\":\"ARM.US\",\"ticker\":\"\",\"value\":\"244.573667\",\"growth\":\"48.92352941176471\",\"name\":\"\"},{\"symbol\":\"ALAB.US\",\"ticker\":\"\",\"value\":\"205.625479\",\"growth\":\"71.04262295081967\",\"name\":\"\"},{\"symbol\":\"CBRS.US\",\"ticker\":\"\",\"value\":\"484.405154\",\"growth\":\"\",\"name\":\"\"},{\"symbol\":\"MCHP.US\",\"ticker\":\"\",\"value\":\"343.813885\",\"growth\":\"722.72272727272727\",\"name\":\"\"},{\"symbol\":\"LSCC.US\",\"ticker\":\"\",\"value\":\"906.869782\",\"growth\":\"4521.45\",\"name\":\"\"},{\"symbol\":\"ALGM.US\",\"ticker\":\"\",\"value\":\"544.990701\",\"growth\":\"749.4\",\"name\":\"\"},{\"symbol\":\"POWI.US\",\"ticker\":\"\",\"value\":\"202.703550\",\"growth\":\"90.63589743589744\",\"name\":\"\"},{\"symbol\":\"KOPN.US\",\"ticker\":\"\",\"value\":\"354.766458\",\"growth\":\"-625\",\"name\":\"\"},{\"symbol\":\"MRAM.US\",\"ticker\":\"\",\"value\":\"1275.581214\",\"growth\":\"133.33333333333333\",\"name\":\"\"}]}]}},\"stocks\":{\"ADI.US\":{\"name\":\"亚德诺\",\"market_cap\":\"176267058035.2000\"},\"ALAB.US\":{\"name\":\"Astera Labs\",\"market_cap\":\"55030518815.9500\"},\"ALGM.US\":{\"name\":\"Allegro Microsystems\",\"market_cap\":\"7739412949.9200\"},\"AMBA.US\":{\"name\":\"安霸\",\"market_cap\":\"3627021535.8000\"},\"AMBQ.US\":{\"name\":\"Ambiq Micro\",\"market_cap\":\"1567280380.5800\"},\"AMD.US\":{\"name\":\"AMD\",\"market_cap\":\"790254293684.9600\"},\"AOSL.US\":{\"name\":\"阿尔法和欧米伽半导体\",\"market_cap\":\"941883819.6600\"},\"ARM.US\":{\"name\":\"Arm\",\"market_cap\":\"255334908365.6000\"},\"ASTI.US\":{\"name\":\"Ascent Solar Tech\",\"market_cap\":\"28953374.2200\"},\"ASX.US\":{\"name\":\"日月光半导体\",\"market_cap\":\"81682647653.8800\"},\"AVGO.US\":{\"name\":\"博通\",\"market_cap\":\"1866065681061.5400\"},\"BZAI.US\":{\"name\":\"Blaize\",\"market_cap\":\"118787104.2528\"},\"CBRS.US\":{\"name\":\"Cerebras\",\"market_cap\":\"47343822163.7700\"},\"CEVA.US\":{\"name\":\"CEVA公司\",\"market_cap\":\"926881206.6300\"},\"CRDO.US\":{\"name\":\"Credo Tech\",\"market_cap\":\"40717449028.3000\"},\"CRUS.US\":{\"name\":\"凌云半导体\",\"market_cap\":\"6424144582.9400\"},\"CSIQ.US\":{\"name\":\"阿特斯太阳能\",\"market_cap\":\"1052515556.4800\"},\"DIOD.US\":{\"name\":\"Diodes\",\"market_cap\":\"3776678756.6700\"},\"DVLT.US\":{\"name\":\"Datavault AI\",\"market_cap\":\"305007851.2175\"},\"FSLR.US\":{\"name\":\"第一太阳能\",\"market_cap\":\"25011443761.2400\"},\"GCTS.US\":{\"name\":\"GCT Semiconductor\",\"market_cap\":\"167824276.5000\"},\"GFS.US\":{\"name\":\"格芯\",\"market_cap\":\"27440528658.3300\"},\"GSIT.US\":{\"name\":\"广船国际技术\",\"market_cap\":\"232918483.1100\"},\"GUER.US\":{\"name\":\"Guerrilla RF, Inc.\",\"market_cap\":\"29737232.1180\"},\"HIMX.US\":{\"name\":\"奇景光电\",\"market_cap\":\"2229163180.9200\"},\"ICG.US\":{\"name\":\"聪链集团\",\"market_cap\":\"50998018.6800\"},\"IFNNY.US\":{\"name\":\"英飞凌(ADR)\",\"market_cap\":\"92524375720.8000\"},\"IMOS.US\":{\"name\":\"南茂科技\",\"market_cap\":\"1702127857.9200\"},\"INDI.US\":{\"name\":\"indie Semiconductor\",\"market_cap\":\"768184044.5700\"},\"INTC.US\":{\"name\":\"英特尔\",\"market_cap\":\"454454000000.0000\"},\"IPWR.US\":{\"name\":\"Ideal Power\",\"market_cap\":\"61951168.9800\"},\"JKS.US\":{\"name\":\"晶科能源\",\"market_cap\":\"824306759.1200\"},\"KOPN.US\":{\"name\":\"高平电子\",\"market_cap\":\"685779172.1000\"},\"KXIAY.US\":{\"name\":\"KIOXIA HOLDINGS CORPORATION UNSPON ADR EACH REP 0.1 COM\",\"market_cap\":\"173665838782.2000\"},\"LAES.US\":{\"name\":\"SEALSQ\",\"market_cap\":\"449041000.4700\"},\"LEDS.US\":{\"name\":\"旭明光电\",\"market_cap\":\"18201486.6000\"},\"LSCC.US\":{\"name\":\"莱迪思半导体\",\"market_cap\":\"18027664400.6200\"},\"MAXNQ.US\":{\"name\":\"MAXEON SOLAR TECHNOLOGIES LTD\",\"market_cap\":\"186260.3600\"},\"MCHP.US\":{\"name\":\"微芯科技\",\"market_cap\":\"40845089591.4000\"},\"MMATQ.US\":{\"name\":\"META MATERIALS INC\",\"market_cap\":\"6.6770\"},\"MOBX.US\":{\"name\":\"Mobix Labs\",\"market_cap\":\"17999631.0000\"},\"MPWR.US\":{\"name\":\"芯源系统\",\"market_cap\":\"66065030540.0000\"},\"MRAM.US\":{\"name\":\"Everspin科技\",\"market_cap\":\"362265064.6500\"},\"MRVL.US\":{\"name\":\"迈威尔科技\",\"market_cap\":\"169417482500.0000\"},\"MTSI.US\":{\"name\":\"MACOM科技解决方案控股\",\"market_cap\":\"19539347721.4000\"},\"MU.US\":{\"name\":\"美光科技\",\"market_cap\":\"936831618754.5000\"},\"MX.US\":{\"name\":\"MagnaChip半导体\",\"market_cap\":\"126690085.1700\"},\"MXL.US\":{\"name\":\"MaxLinear\",\"market_cap\":\"6086420048.0100\"},\"NA.US\":{\"name\":\"Nano Labs\",\"market_cap\":\"42946066.5000\"},\"NVDA.US\":{\"name\":\"英伟达\",\"market_cap\":\"5021352000000.0000\"},\"NVEC.US\":{\"name\":\"NVE\",\"market_cap\":\"594584444.7200\"},\"NVTS.US\":{\"name\":\"Navitas Semiconductor\",\"market_cap\":\"3007796981.7600\"},\"NXPI.US\":{\"name\":\"恩智浦\",\"market_cap\":\"56527642885.5800\"},\"OLED.US\":{\"name\":\"Universal Display\",\"market_cap\":\"3667234096.3000\"},\"ON.US\":{\"name\":\"安森美半导体\",\"market_cap\":\"31623516367.2000\"},\"PENG.US\":{\"name\":\"Penguin Solutions\",\"market_cap\":\"2695365967.4000\"},\"PI.US\":{\"name\":\"Impinj\",\"market_cap\":\"4917310484.9600\"},\"POET.US\":{\"name\":\"POET Tech\",\"market_cap\":\"1270302188.1600\"},\"POWI.US\":{\"name\":\"帕沃英蒂格盛\",\"market_cap\":\"3365487033.6000\"},\"PRSO.US\":{\"name\":\"Peraso\",\"market_cap\":\"10511476.6520\"},\"QCOM.US\":{\"name\":\"高通\",\"market_cap\":\"161725190000.0000\"},\"QNC.US\":{\"name\":\"Quantum Emotion\",\"market_cap\":\"\"},\"QRVO.US\":{\"name\":\"QORVO\",\"market_cap\":\"7894953937.1700\"},\"QUIK.US\":{\"name\":\"快辑半导体\",\"market_cap\":\"244212400.4000\"},\"RGTI.US\":{\"name\":\"Rigetti Computing\",\"market_cap\":\"5325028888.1400\"},\"RMBS.US\":{\"name\":\"Rambus\",\"market_cap\":\"10001244412.6300\"},\"SELXF.US\":{\"name\":\"SEMILUX INTERNATIONAL LTD\",\"market_cap\":\"91044.8343\"},\"SIMO.US\":{\"name\":\"慧荣科技\",\"market_cap\":\"8528498659.2000\"},\"SITM.US\":{\"name\":\"SiTime\",\"market_cap\":\"14526702384.9600\"},\"SIVEF.US\":{\"name\":\"SIVERS SEMICONDUCTORS AB\",\"market_cap\":\"\"},\"SKHY.US\":{\"name\":\"SK海力士\",\"market_cap\":\"1040236841600.0000\"},\"SLAB.US\":{\"name\":\"芯科实验室\",\"market_cap\":\"7190037414.0000\"},\"SMTC.US\":{\"name\":\"先科电子\",\"market_cap\":\"11092441085.4400\"},\"SMTK.US\":{\"name\":\"SmartKem\",\"market_cap\":\"4439366.0910\"},\"SPIEQ.US\":{\"name\":\"SPI ENERGY CO LTD\",\"market_cap\":\"31.6031\"},\"SQNS.US\":{\"name\":\"Sequans通信\",\"market_cap\":\"39029988.6800\"},\"STM.US\":{\"name\":\"意法半导体\",\"market_cap\":\"46384809852.8800\"},\"STMEF.US\":{\"name\":\"意法半导体\",\"market_cap\":\"46864735736.5200\"},\"SWKS.US\":{\"name\":\"思佳讯\",\"market_cap\":\"9218381472.2700\"},\"SYNA.US\":{\"name\":\"Synaptics\",\"market_cap\":\"4129706106.7200\"},\"TE.US\":{\"name\":\"T1 Energy\",\"market_cap\":\"1379600617.2000\"},\"TOYO.US\":{\"name\":\"Toyo\",\"market_cap\":\"228546371.8000\"},\"TSEM.US\":{\"name\":\"Tower半导体\",\"market_cap\":\"26416755038.0800\"},\"TSM.US\":{\"name\":\"台积电\",\"market_cap\":\"2106278956140.0000\"},\"TXN.US\":{\"name\":\"德州仪器\",\"market_cap\":\"245700157441.4400\"},\"UMC.US\":{\"name\":\"联电\",\"market_cap\":\"46951957903.2000\"},\"VLN.US\":{\"name\":\"Valens Semiconductor\",\"market_cap\":\"176484184.7800\"},\"WKEY.US\":{\"name\":\"Wisekey\",\"market_cap\":\"73348930.7200\"},\"WOLF.US\":{\"name\":\"Wolfspeed\",\"market_cap\":\"1177045908.3500\"}}}"
+    }
+  ],
+  "structuredContent": {
+    "overview": {
+      "metrics": {
+        "pe": {
+          "circle": "206.6400",
+          "part": "6.5684",
+          "metric": "31.46x",
+          "desc": "当前市盈率 <strong>31.46</strong>，<strong>低于</strong>合理区间，比近 <strong>5</strong> 年 <strong>97.93%</strong> 的时间便宜，行业排名 <strong>15/89</strong>，行业中位数 <strong>15.50</strong>。",
+          "industry_median": "15.50"
+        }
+      },
+      "indicator": "pe",
+      "range": 5,
+      "date": "2026 年 8 月 3 日",
+      "ccy_symbol": "$",
+      "aichat_data": {
+        "agent_id": "chatbot",
+        "handoff_agent_id": "fkl5safices4",
+        "symbol": "NVDA.US",
+        "text": "估值分析",
+        "type": "newChat",
+        "workflow_type": "valuation"
+      },
+      "ai_summary": "当前市盈率 <strong>31.46</strong>，<strong>低于</strong>合理区间，比近 <strong>5</strong> 年 <strong>97.93%</strong> 的时间便宜，行业排名 <strong>15/89</strong>，行业中位数 <strong>15.50</strong>。"
+    },
+    "history": {
+      "metrics": {
+        "pe": {
+          "low": "44.65",
+          "median": "59.83",
+          "high": "80.30",
+          "desc": "当前市盈率 <strong>31.46</strong>，<strong>低于</strong>合理区间，比近 <strong>5</strong> 年 <strong>97.93%</strong> 的时间便宜，行业排名 <strong>15/89</strong>，行业中位数 <strong>15.50</strong>。",
+          "list": [
+            {
+              "timestamp": "2021-09-01T04:00:00Z",
+              "value": "79.88"
+            },
+            {
+              "timestamp": "2021-10-01T04:00:00Z",
+              "value": "73.03"
+            },
+            {
+              "timestamp": "2021-11-01T04:00:00Z",
+              "value": "78.56"
+            },
+            {
+              "timestamp": "2021-12-01T05:00:00Z",
+              "value": "95.62"
+            },
+            {
+              "timestamp": "2022-01-01T05:00:00Z",
+              "value": "89.46"
+            },
+            {
+              "timestamp": "2022-02-01T05:00:00Z",
+              "value": "63.16"
+            },
+            {
+              "timestamp": "2022-03-01T05:00:00Z",
+              "value": "60.19"
+            },
+            {
+              "timestamp": "2022-04-01T04:00:00Z",
+              "value": "68.48"
+            },
+            {
+              "timestamp": "2022-05-01T04:00:00Z",
+              "value": "49.10"
+            },
+            {
+              "timestamp": "2022-06-01T04:00:00Z",
+              "value": "48.50"
+            },
+            {
+              "timestamp": "2022-07-01T04:00:00Z",
+              "value": "38.45"
+            },
+            {
+              "timestamp": "2022-08-01T04:00:00Z",
+              "value": "58.17"
+            },
+            {
+              "timestamp": "2022-09-01T04:00:00Z",
+              "value": "45.08"
+            },
+            {
+              "timestamp": "2022-10-01T04:00:00Z",
+              "value": "39.27"
+            },
+            {
+              "timestamp": "2022-11-01T04:00:00Z",
+              "value": "56.59"
+            },
+            {
+              "timestamp": "2022-12-01T05:00:00Z",
+              "value": "71.59"
+            },
+            {
+              "timestamp": "2023-01-01T05:00:00Z",
+              "value": "61.06"
+            },
+            {
+              "timestamp": "2023-02-01T05:00:00Z",
+              "value": "110.07"
+            },
+            {
+              "timestamp": "2023-03-01T05:00:00Z",
+              "value": "130.80"
+            },
+            {
+              "timestamp": "2023-04-01T04:00:00Z",
+              "value": "156.50"
+            },
+            {
+              "timestamp": "2023-05-01T04:00:00Z",
+              "value": "148.75"
+            },
+            {
+              "timestamp": "2023-06-01T04:00:00Z",
+              "value": "204.63"
+            },
+            {
+              "timestamp": "2023-07-01T04:00:00Z",
+              "value": "217.66"
+            },
+            {
+              "timestamp": "2023-08-01T04:00:00Z",
+              "value": "111.39"
+            },
+            {
+              "timestamp": "2023-09-01T04:00:00Z",
+              "value": "116.18"
+            },
+            {
+              "timestamp": "2023-10-01T04:00:00Z",
+              "value": "104.18"
+            },
+            {
+              "timestamp": "2023-11-01T04:00:00Z",
+              "value": "55.35"
+            },
+            {
+              "timestamp": "2023-12-01T05:00:00Z",
+              "value": "61.15"
+            },
+            {
+              "timestamp": "2024-01-01T05:00:00Z",
+              "value": "64.76"
+            },
+            {
+              "timestamp": "2024-02-01T05:00:00Z",
+              "value": "52.31"
+            },
+            {
+              "timestamp": "2024-03-01T05:00:00Z",
+              "value": "68.29"
+            },
+            {
+              "timestamp": "2024-04-01T04:00:00Z",
+              "value": "75.00"
+            },
+            {
+              "timestamp": "2024-05-01T04:00:00Z",
+              "value": "68.68"
+            },
+            {
+              "timestamp": "2024-06-01T04:00:00Z",
+              "value": "63.25"
+            },
+            {
+              "timestamp": "2024-07-01T04:00:00Z",
+              "value": "71.71"
+            },
+            {
+              "timestamp": "2024-08-01T04:00:00Z",
+              "value": "63.00"
+            },
+            {
+              "timestamp": "2024-09-01T04:00:00Z",
+              "value": "55.24"
+            },
+            {
+              "timestamp": "2024-10-01T04:00:00Z",
+              "value": "54.14"
+            },
+            {
+              "timestamp": "2024-11-01T04:00:00Z",
+              "value": "62.66"
+            },
+            {
+              "timestamp": "2024-12-01T05:00:00Z",
+              "value": "53.68"
+            },
+            {
+              "timestamp": "2025-01-01T05:00:00Z",
+              "value": "52.14"
+            },
+            {
+              "timestamp": "2025-02-01T05:00:00Z",
+              "value": "46.62"
+            },
+            {
+              "timestamp": "2025-03-01T05:00:00Z",
+              "value": "41.82"
+            },
+            {
+              "timestamp": "2025-04-01T04:00:00Z",
+              "value": "36.88"
+            },
+            {
+              "timestamp": "2025-05-01T04:00:00Z",
+              "value": "37.37"
+            },
+            {
+              "timestamp": "2025-06-01T04:00:00Z",
+              "value": "42.95"
+            },
+            {
+              "timestamp": "2025-07-01T04:00:00Z",
+              "value": "48.72"
+            },
+            {
+              "timestamp": "2025-08-01T04:00:00Z",
+              "value": "55.21"
+            },
+            {
+              "timestamp": "2025-09-01T04:00:00Z",
+              "value": "48.88"
+            },
+            {
+              "timestamp": "2025-10-01T04:00:00Z",
+              "value": "52.54"
+            },
+            {
+              "timestamp": "2025-11-01T04:00:00Z",
+              "value": "56.82"
+            },
+            {
+              "timestamp": "2025-12-01T05:00:00Z",
+              "value": "44.07"
+            },
+            {
+              "timestamp": "2026-01-01T05:00:00Z",
+              "value": "45.68"
+            },
+            {
+              "timestamp": "2026-02-01T05:00:00Z",
+              "value": "46.82"
+            },
+            {
+              "timestamp": "2026-03-01T05:00:00Z",
+              "value": "35.86"
+            },
+            {
+              "timestamp": "2026-04-01T04:00:00Z",
+              "value": "35.57"
+            },
+            {
+              "timestamp": "2026-05-01T04:00:00Z",
+              "value": "40.16"
+            },
+            {
+              "timestamp": "2026-06-01T04:00:00Z",
+              "value": "34.16"
+            },
+            {
+              "timestamp": "2026-07-01T04:00:00Z",
+              "value": "30.08"
+            },
+            {
+              "timestamp": "2026-08-01T04:00:00Z",
+              "value": "30.56"
+            }
+          ]
+        }
+      },
+      "range": 5
+    },
+    "peers": {
+      "pe": {
+        "industry_median": "15.50",
+        "list": [
+          {
+            "symbol": "AVGO.US",
+            "ticker": "",
+            "value": "63.6513",
+            "growth": "",
+            "name": "博通"
+          },
+          {
+            "symbol": "NVDA.US",
+            "ticker": "",
+            "value": "31.4595",
+            "growth": "",
+            "name": "英伟达"
+          },
+          {
+            "symbol": "TSM.US",
+            "ticker": "",
+            "value": "29.8570",
+            "growth": "",
+            "name": "台积电"
+          },
+          {
+            "symbol": "SKHY.US",
+            "ticker": "",
+            "value": "20.8429",
+            "growth": "",
+            "name": "SK海力士"
+          },
+          {
+            "symbol": "MU.US",
+            "ticker": "",
+            "value": "18.5625",
+            "growth": "",
+            "name": "美光科技"
+          }
+        ]
+      }
+    },
+    "layouts": {
+      "pe": {
+        "step": "20",
+        "industry_median": "15.50",
+        "groups": [
+          {
+            "list": [
+              {
+                "symbol": "INTC.US",
+                "ticker": "",
+                "value": "-40.256356",
+                "growth": "-3747.06666666666667",
+                "name": ""
+              },
+              {
+                "symbol": "SITM.US",
+                "ticker": "",
+                "value": "-599.212242",
+                "growth": "268.15058139534884",
+                "name": ""
+              },
+              {
+                "symbol": "SMTC.US",
+                "ticker": "",
+                "value": "-334.532875",
+                "growth": "439.75217391304348",
+                "name": ""
+              },
+              {
+                "symbol": "SLAB.US",
+                "ticker": "",
+                "value": "-142.846533",
+                "growth": "43.92929292929293",
+                "name": ""
+              },
+              {
+                "symbol": "MXL.US",
+                "ticker": "",
+                "value": "-58.659201",
+                "growth": "93.38924050632911",
+                "name": ""
+              },
+              {
+                "symbol": "RGTI.US",
+                "ticker": "",
+                "value": "-23.591303",
+                "growth": "78.75",
+                "name": ""
+              },
+              {
+                "symbol": "PI.US",
+                "ticker": "",
+                "value": "-182.190088",
+                "growth": "-21.91081081081081",
+                "name": ""
+              },
+              {
+                "symbol": "SYNA.US",
+                "ticker": "",
+                "value": "-85.856676",
+                "growth": "2.63688524590164",
+                "name": ""
+              },
+              {
+                "symbol": "AMBA.US",
+                "ticker": "",
+                "value": "-52.089926",
+                "growth": "23.40842696629213",
+                "name": ""
+              },
+              {
+                "symbol": "NVTS.US",
+                "ticker": "",
+                "value": "-9.607979",
+                "growth": "-121.05263157894737",
+                "name": ""
+              },
+              {
+                "symbol": "AMBQ.US",
+                "ticker": "",
+                "value": "-40.869938",
+                "growth": "53.36433260393873",
+                "name": ""
+              },
+              {
+                "symbol": "TE.US",
+                "ticker": "",
+                "value": "-3.582745",
+                "growth": "85.29680365296804",
+                "name": ""
+              },
+              {
+                "symbol": "POET.US",
+                "ticker": "",
+                "value": "-15.558114",
+                "growth": "58.82352941176471",
+                "name": ""
+              },
+              {
+                "symbol": "WOLF.US",
+                "ticker": "",
+                "value": "-2.265292",
+                "growth": "98.81942756741195",
+                "name": ""
+              },
+              {
+                "symbol": "CSIQ.US",
+                "ticker": "",
+                "value": "-10.293752",
+                "growth": "39.4292",
+                "name": ""
+              },
+              {
+                "symbol": "AOSL.US",
+                "ticker": "",
+                "value": "-8.863871",
+                "growth": "54.84848484848485",
+                "name": ""
+              },
+              {
+                "symbol": "CEVA.US",
+                "ticker": "",
+                "value": "-78.749465",
+                "growth": "42.63863636363636",
+                "name": ""
+              },
+              {
+                "symbol": "JKS.US",
+                "ticker": "",
+                "value": "-1.618085",
+                "growth": "77.129019109502",
+                "name": ""
+              },
+              {
+                "symbol": "INDI.US",
+                "ticker": "",
+                "value": "-5.063436",
+                "growth": "17.65479452054795",
+                "name": ""
+              },
+              {
+                "symbol": "LAES.US",
+                "ticker": "",
+                "value": "-13.132158",
+                "growth": "",
+                "name": ""
+              },
+              {
+                "symbol": "DVLT.US",
+                "ticker": "",
+                "value": "-2.488600",
+                "growth": "82.69230769230769",
+                "name": ""
+              },
+              {
+                "symbol": "QUIK.US",
+                "ticker": "",
+                "value": "-16.466348",
+                "growth": "74.72527472527473",
+                "name": ""
+              },
+              {
+                "symbol": "GSIT.US",
+                "ticker": "",
+                "value": "-14.722109",
+                "growth": "",
+                "name": ""
+              },
+              {
+                "symbol": "VLN.US",
+                "ticker": "",
+                "value": "-5.591135",
+                "growth": "11.29032258064516",
+                "name": ""
+              },
+              {
+                "symbol": "GCTS.US",
+                "ticker": "",
+                "value": "-3.627221",
+                "growth": "47.5609756097561",
+                "name": ""
+              },
+              {
+                "symbol": "MX.US",
+                "ticker": "",
+                "value": "-4.136009",
+                "growth": "",
+                "name": ""
+              },
+              {
+                "symbol": "BZAI.US",
+                "ticker": "",
+                "value": "-1.452236",
+                "growth": "69.94949494949495",
+                "name": ""
+              },
+              {
+                "symbol": "WKEY.US",
+                "ticker": "",
+                "value": "-12.079863",
+                "growth": "238.30146266528682",
+                "name": ""
+              },
+              {
+                "symbol": "IPWR.US",
+                "ticker": "",
+                "value": "-5.383827",
+                "growth": "0.86206896551724",
+                "name": ""
+              },
+              {
+                "symbol": "ICG.US",
+                "ticker": "",
+                "value": "-7.654693",
+                "growth": "36.66666666666667",
+                "name": ""
+              },
+              {
+                "symbol": "SQNS.US",
+                "ticker": "",
+                "value": "-0.249675",
+                "growth": "57.45131244707875",
+                "name": ""
+              },
+              {
+                "symbol": "GUER.US",
+                "ticker": "",
+                "value": "-10.715560",
+                "growth": "",
+                "name": ""
+              },
+              {
+                "symbol": "ASTI.US",
+                "ticker": "",
+                "value": "-3.446188",
+                "growth": "",
+                "name": ""
+              },
+              {
+                "symbol": "LEDS.US",
+                "ticker": "",
+                "value": "-17.914849",
+                "growth": "",
+                "name": ""
+              },
+              {
+                "symbol": "MOBX.US",
+                "ticker": "",
+                "value": "-0.450227",
+                "growth": "",
+                "name": ""
+              },
+              {
+                "symbol": "PRSO.US",
+                "ticker": "",
+                "value": "-1.550594",
+                "growth": "65.67164179104478",
+                "name": ""
+              },
+              {
+                "symbol": "SMTK.US",
+                "ticker": "",
+                "value": "-0.160012",
+                "growth": "",
+                "name": ""
+              },
+              {
+                "symbol": "MAXNQ.US",
+                "ticker": "",
+                "value": "-0.000305",
+                "growth": "",
+                "name": ""
+              },
+              {
+                "symbol": "SELXF.US",
+                "ticker": "",
+                "value": "-0.020666",
+                "growth": "",
+                "name": ""
+              },
+              {
+                "symbol": "SPIEQ.US",
+                "ticker": "",
+                "value": "",
+                "growth": "",
+                "name": ""
+              },
+              {
+                "symbol": "MMATQ.US",
+                "ticker": "",
+                "value": "",
+                "growth": "",
+                "name": ""
+              },
+              {
+                "symbol": "SIVEF.US",
+                "ticker": "",
+                "value": "",
+                "growth": "",
+                "name": ""
+              },
+              {
+                "symbol": "QNC.US",
+                "ticker": "",
+                "value": "",
+                "growth": "",
+                "name": ""
+              }
+            ]
+          },
+          {
+            "list": [
+              {
+                "symbol": "MU.US",
+                "ticker": "",
+                "value": "18.562516",
+                "growth": "856.14176548089592",
+                "name": ""
+              },
+              {
+                "symbol": "KXIAY.US",
+                "ticker": "",
+                "value": "19.721304",
+                "growth": "",
+                "name": ""
+              },
+              {
+                "symbol": "QCOM.US",
+                "ticker": "",
+                "value": "17.464923",
+                "growth": "157.92734530938124",
+                "name": ""
+              },
+              {
+                "symbol": "NXPI.US",
+                "ticker": "",
+                "value": "19.000888",
+                "growth": "85.33647798742138",
+                "name": ""
+              },
+              {
+                "symbol": "UMC.US",
+                "ticker": "",
+                "value": "17.676220",
+                "growth": "61.45488721804511",
+                "name": ""
+              },
+              {
+                "symbol": "FSLR.US",
+                "ticker": "",
+                "value": "14.324882",
+                "growth": "22.71527093596059",
+                "name": ""
+              },
+              {
+                "symbol": "QRVO.US",
+                "ticker": "",
+                "value": "19.777087",
+                "growth": "28.17734806629834",
+                "name": ""
+              },
+              {
+                "symbol": "CRUS.US",
+                "ticker": "",
+                "value": "15.501980",
+                "growth": "0.12738853503185",
+                "name": ""
+              },
+              {
+                "symbol": "OLED.US",
+                "ticker": "",
+                "value": "18.744520",
+                "growth": "-17.43720472440945",
+                "name": ""
+              },
+              {
+                "symbol": "TOYO.US",
+                "ticker": "",
+                "value": "3.516702",
+                "growth": "103.09734513274336",
+                "name": ""
+              },
+              {
+                "symbol": "NA.US",
+                "ticker": "",
+                "value": "2.261796",
+                "growth": "",
+                "name": ""
+              }
+            ]
+          },
+          {
+            "list": [
+              {
+                "symbol": "NVDA.US",
+                "ticker": "",
+                "value": "31.459543",
+                "growth": "92.95163265306122",
+                "name": ""
+              },
+              {
+                "symbol": "TSM.US",
+                "ticker": "",
+                "value": "29.856952",
+                "growth": "58.50816901408451",
+                "name": ""
+              },
+              {
+                "symbol": "SKHY.US",
+                "ticker": "",
+                "value": "20.842867",
+                "growth": "",
+                "name": ""
+              },
+              {
+                "symbol": "GFS.US",
+                "ticker": "",
+                "value": "35.270602",
+                "growth": "-15.24276729559748",
+                "name": ""
+              },
+              {
+                "symbol": "SWKS.US",
+                "ticker": "",
+                "value": "31.776565",
+                "growth": "-51.62012987012987",
+                "name": ""
+              },
+              {
+                "symbol": "SIMO.US",
+                "ticker": "",
+                "value": "29.431756",
+                "growth": "243.23516483516484",
+                "name": ""
+              },
+              {
+                "symbol": "PENG.US",
+                "ticker": "",
+                "value": "35.505519",
+                "growth": "535.71428571428571",
+                "name": ""
+              },
+              {
+                "symbol": "NVEC.US",
+                "ticker": "",
+                "value": "33.000261",
+                "growth": "",
+                "name": ""
+              }
+            ]
+          },
+          {
+            "list": [
+              {
+                "symbol": "TXN.US",
+                "ticker": "",
+                "value": "40.834329",
+                "growth": "55.96385321100917",
+                "name": ""
+              },
+              {
+                "symbol": "ADI.US",
+                "ticker": "",
+                "value": "53.197729",
+                "growth": "108.13179824561404",
+                "name": ""
+              },
+              {
+                "symbol": "ASX.US",
+                "ticker": "",
+                "value": "42.228352",
+                "growth": "96.11733800350263",
+                "name": ""
+              },
+              {
+                "symbol": "ON.US",
+                "ticker": "",
+                "value": "50.180128",
+                "growth": "655.76551724137931",
+                "name": ""
+              },
+              {
+                "symbol": "RMBS.US",
+                "ticker": "",
+                "value": "41.727488",
+                "growth": "18.56255924170616",
+                "name": ""
+              },
+              {
+                "symbol": "DIOD.US",
+                "ticker": "",
+                "value": "44.151542",
+                "growth": "77.62237762237762",
+                "name": ""
+              }
+            ]
+          },
+          {
+            "list": [
+              {
+                "symbol": "AVGO.US",
+                "ticker": "",
+                "value": "63.651318",
+                "growth": "88.79014675052411",
+                "name": ""
+              },
+              {
+                "symbol": "MRVL.US",
+                "ticker": "",
+                "value": "67.050890",
+                "growth": "-39.74951140065147",
+                "name": ""
+              },
+              {
+                "symbol": "IFNNY.US",
+                "ticker": "",
+                "value": "73.410267",
+                "growth": "",
+                "name": ""
+              },
+              {
+                "symbol": "HIMX.US",
+                "ticker": "",
+                "value": "69.794395",
+                "growth": "58.73015873015873",
+                "name": ""
+              },
+              {
+                "symbol": "IMOS.US",
+                "ticker": "",
+                "value": "63.481673",
+                "growth": "",
+                "name": ""
+              }
+            ]
+          },
+          {
+            "list": [
+              {
+                "symbol": "MPWR.US",
+                "ticker": "",
+                "value": "82.380897",
+                "growth": "76.96360784313725",
+                "name": ""
+              },
+              {
+                "symbol": "STM.US",
+                "ticker": "",
+                "value": "99.538219",
+                "growth": "574.22777777777778",
+                "name": ""
+              },
+              {
+                "symbol": "CRDO.US",
+                "ticker": "",
+                "value": "86.214820",
+                "growth": "99.16334661354582",
+                "name": ""
+              }
+            ]
+          },
+          {
+            "list": [
+              {
+                "symbol": "STMEF.US",
+                "ticker": "",
+                "value": "100.568102",
+                "growth": "",
+                "name": ""
+              },
+              {
+                "symbol": "TSEM.US",
+                "ticker": "",
+                "value": "107.665288",
+                "growth": "53.60824742268041",
+                "name": ""
+              },
+              {
+                "symbol": "MTSI.US",
+                "ticker": "",
+                "value": "110.546685",
+                "growth": "542.63835616438356",
+                "name": ""
+              }
+            ]
+          },
+          {
+            "list": []
+          },
+          {
+            "list": [
+              {
+                "symbol": "AMD.US",
+                "ticker": "",
+                "value": "157.766878",
+                "growth": "103.45245283018868",
+                "name": ""
+              }
+            ]
+          },
+          {
+            "list": []
+          },
+          {
+            "list": []
+          },
+          {
+            "list": [
+              {
+                "symbol": "ARM.US",
+                "ticker": "",
+                "value": "244.573667",
+                "growth": "48.92352941176471",
+                "name": ""
+              },
+              {
+                "symbol": "ALAB.US",
+                "ticker": "",
+                "value": "205.625479",
+                "growth": "71.04262295081967",
+                "name": ""
+              },
+              {
+                "symbol": "CBRS.US",
+                "ticker": "",
+                "value": "484.405154",
+                "growth": "",
+                "name": ""
+              },
+              {
+                "symbol": "MCHP.US",
+                "ticker": "",
+                "value": "343.813885",
+                "growth": "722.72272727272727",
+                "name": ""
+              },
+              {
+                "symbol": "LSCC.US",
+                "ticker": "",
+                "value": "906.869782",
+                "growth": "4521.45",
+                "name": ""
+              },
+              {
+                "symbol": "ALGM.US",
+                "ticker": "",
+                "value": "544.990701",
+                "growth": "749.4",
+                "name": ""
+              },
+              {
+                "symbol": "POWI.US",
+                "ticker": "",
+                "value": "202.703550",
+                "growth": "90.63589743589744",
+                "name": ""
+              },
+              {
+                "symbol": "KOPN.US",
+                "ticker": "",
+                "value": "354.766458",
+                "growth": "-625",
+                "name": ""
+              },
+              {
+                "symbol": "MRAM.US",
+                "ticker": "",
+                "value": "1275.581214",
+                "growth": "133.33333333333333",
+                "name": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "stocks": {
+      "ADI.US": {
+        "name": "亚德诺",
+        "market_cap": "176267058035.2000"
+      },
+      "ALAB.US": {
+        "name": "Astera Labs",
+        "market_cap": "55030518815.9500"
+      },
+      "ALGM.US": {
+        "name": "Allegro Microsystems",
+        "market_cap": "7739412949.9200"
+      },
+      "AMBA.US": {
+        "name": "安霸",
+        "market_cap": "3627021535.8000"
+      },
+      "AMBQ.US": {
+        "name": "Ambiq Micro",
+        "market_cap": "1567280380.5800"
+      },
+      "AMD.US": {
+        "name": "AMD",
+        "market_cap": "790254293684.9600"
+      },
+      "AOSL.US": {
+        "name": "阿尔法和欧米伽半导体",
+        "market_cap": "941883819.6600"
+      },
+      "ARM.US": {
+        "name": "Arm",
+        "market_cap": "255334908365.6000"
+      },
+      "ASTI.US": {
+        "name": "Ascent Solar Tech",
+        "market_cap": "28953374.2200"
+      },
+      "ASX.US": {
+        "name": "日月光半导体",
+        "market_cap": "81682647653.8800"
+      },
+      "AVGO.US": {
+        "name": "博通",
+        "market_cap": "1866065681061.5400"
+      },
+      "BZAI.US": {
+        "name": "Blaize",
+        "market_cap": "118787104.2528"
+      },
+      "CBRS.US": {
+        "name": "Cerebras",
+        "market_cap": "47343822163.7700"
+      },
+      "CEVA.US": {
+        "name": "CEVA公司",
+        "market_cap": "926881206.6300"
+      },
+      "CRDO.US": {
+        "name": "Credo Tech",
+        "market_cap": "40717449028.3000"
+      },
+      "CRUS.US": {
+        "name": "凌云半导体",
+        "market_cap": "6424144582.9400"
+      },
+      "CSIQ.US": {
+        "name": "阿特斯太阳能",
+        "market_cap": "1052515556.4800"
+      },
+      "DIOD.US": {
+        "name": "Diodes",
+        "market_cap": "3776678756.6700"
+      },
+      "DVLT.US": {
+        "name": "Datavault AI",
+        "market_cap": "305007851.2175"
+      },
+      "FSLR.US": {
+        "name": "第一太阳能",
+        "market_cap": "25011443761.2400"
+      },
+      "GCTS.US": {
+        "name": "GCT Semiconductor",
+        "market_cap": "167824276.5000"
+      },
+      "GFS.US": {
+        "name": "格芯",
+        "market_cap": "27440528658.3300"
+      },
+      "GSIT.US": {
+        "name": "广船国际技术",
+        "market_cap": "232918483.1100"
+      },
+      "GUER.US": {
+        "name": "Guerrilla RF, Inc.",
+        "market_cap": "29737232.1180"
+      },
+      "HIMX.US": {
+        "name": "奇景光电",
+        "market_cap": "2229163180.9200"
+      },
+      "ICG.US": {
+        "name": "聪链集团",
+        "market_cap": "50998018.6800"
+      },
+      "IFNNY.US": {
+        "name": "英飞凌(ADR)",
+        "market_cap": "92524375720.8000"
+      },
+      "IMOS.US": {
+        "name": "南茂科技",
+        "market_cap": "1702127857.9200"
+      },
+      "INDI.US": {
+        "name": "indie Semiconductor",
+        "market_cap": "768184044.5700"
+      },
+      "INTC.US": {
+        "name": "英特尔",
+        "market_cap": "454454000000.0000"
+      },
+      "IPWR.US": {
+        "name": "Ideal Power",
+        "market_cap": "61951168.9800"
+      },
+      "JKS.US": {
+        "name": "晶科能源",
+        "market_cap": "824306759.1200"
+      },
+      "KOPN.US": {
+        "name": "高平电子",
+        "market_cap": "685779172.1000"
+      },
+      "KXIAY.US": {
+        "name": "KIOXIA HOLDINGS CORPORATION UNSPON ADR EACH REP 0.1 COM",
+        "market_cap": "173665838782.2000"
+      },
+      "LAES.US": {
+        "name": "SEALSQ",
+        "market_cap": "449041000.4700"
+      },
+      "LEDS.US": {
+        "name": "旭明光电",
+        "market_cap": "18201486.6000"
+      },
+      "LSCC.US": {
+        "name": "莱迪思半导体",
+        "market_cap": "18027664400.6200"
+      },
+      "MAXNQ.US": {
+        "name": "MAXEON SOLAR TECHNOLOGIES LTD",
+        "market_cap": "186260.3600"
+      },
+      "MCHP.US": {
+        "name": "微芯科技",
+        "market_cap": "40845089591.4000"
+      },
+      "MMATQ.US": {
+        "name": "META MATERIALS INC",
+        "market_cap": "6.6770"
+      },
+      "MOBX.US": {
+        "name": "Mobix Labs",
+        "market_cap": "17999631.0000"
+      },
+      "MPWR.US": {
+        "name": "芯源系统",
+        "market_cap": "66065030540.0000"
+      },
+      "MRAM.US": {
+        "name": "Everspin科技",
+        "market_cap": "362265064.6500"
+      },
+      "MRVL.US": {
+        "name": "迈威尔科技",
+        "market_cap": "169417482500.0000"
+      },
+      "MTSI.US": {
+        "name": "MACOM科技解决方案控股",
+        "market_cap": "19539347721.4000"
+      },
+      "MU.US": {
+        "name": "美光科技",
+        "market_cap": "936831618754.5000"
+      },
+      "MX.US": {
+        "name": "MagnaChip半导体",
+        "market_cap": "126690085.1700"
+      },
+      "MXL.US": {
+        "name": "MaxLinear",
+        "market_cap": "6086420048.0100"
+      },
+      "NA.US": {
+        "name": "Nano Labs",
+        "market_cap": "42946066.5000"
+      },
+      "NVDA.US": {
+        "name": "英伟达",
+        "market_cap": "5021352000000.0000"
+      },
+      "NVEC.US": {
+        "name": "NVE",
+        "market_cap": "594584444.7200"
+      },
+      "NVTS.US": {
+        "name": "Navitas Semiconductor",
+        "market_cap": "3007796981.7600"
+      },
+      "NXPI.US": {
+        "name": "恩智浦",
+        "market_cap": "56527642885.5800"
+      },
+      "OLED.US": {
+        "name": "Universal Display",
+        "market_cap": "3667234096.3000"
+      },
+      "ON.US": {
+        "name": "安森美半导体",
+        "market_cap": "31623516367.2000"
+      },
+      "PENG.US": {
+        "name": "Penguin Solutions",
+        "market_cap": "2695365967.4000"
+      },
+      "PI.US": {
+        "name": "Impinj",
+        "market_cap": "4917310484.9600"
+      },
+      "POET.US": {
+        "name": "POET Tech",
+        "market_cap": "1270302188.1600"
+      },
+      "POWI.US": {
+        "name": "帕沃英蒂格盛",
+        "market_cap": "3365487033.6000"
+      },
+      "PRSO.US": {
+        "name": "Peraso",
+        "market_cap": "10511476.6520"
+      },
+      "QCOM.US": {
+        "name": "高通",
+        "market_cap": "161725190000.0000"
+      },
+      "QNC.US": {
+        "name": "Quantum Emotion",
+        "market_cap": ""
+      },
+      "QRVO.US": {
+        "name": "QORVO",
+        "market_cap": "7894953937.1700"
+      },
+      "QUIK.US": {
+        "name": "快辑半导体",
+        "market_cap": "244212400.4000"
+      },
+      "RGTI.US": {
+        "name": "Rigetti Computing",
+        "market_cap": "5325028888.1400"
+      },
+      "RMBS.US": {
+        "name": "Rambus",
+        "market_cap": "10001244412.6300"
+      },
+      "SELXF.US": {
+        "name": "SEMILUX INTERNATIONAL LTD",
+        "market_cap": "91044.8343"
+      },
+      "SIMO.US": {
+        "name": "慧荣科技",
+        "market_cap": "8528498659.2000"
+      },
+      "SITM.US": {
+        "name": "SiTime",
+        "market_cap": "14526702384.9600"
+      },
+      "SIVEF.US": {
+        "name": "SIVERS SEMICONDUCTORS AB",
+        "market_cap": ""
+      },
+      "SKHY.US": {
+        "name": "SK海力士",
+        "market_cap": "1040236841600.0000"
+      },
+      "SLAB.US": {
+        "name": "芯科实验室",
+        "market_cap": "7190037414.0000"
+      },
+      "SMTC.US": {
+        "name": "先科电子",
+        "market_cap": "11092441085.4400"
+      },
+      "SMTK.US": {
+        "name": "SmartKem",
+        "market_cap": "4439366.0910"
+      },
+      "SPIEQ.US": {
+        "name": "SPI ENERGY CO LTD",
+        "market_cap": "31.6031"
+      },
+      "SQNS.US": {
+        "name": "Sequans通信",
+        "market_cap": "39029988.6800"
+      },
+      "STM.US": {
+        "name": "意法半导体",
+        "market_cap": "46384809852.8800"
+      },
+      "STMEF.US": {
+        "name": "意法半导体",
+        "market_cap": "46864735736.5200"
+      },
+      "SWKS.US": {
+        "name": "思佳讯",
+        "market_cap": "9218381472.2700"
+      },
+      "SYNA.US": {
+        "name": "Synaptics",
+        "market_cap": "4129706106.7200"
+      },
+      "TE.US": {
+        "name": "T1 Energy",
+        "market_cap": "1379600617.2000"
+      },
+      "TOYO.US": {
+        "name": "Toyo",
+        "market_cap": "228546371.8000"
+      },
+      "TSEM.US": {
+        "name": "Tower半导体",
+        "market_cap": "26416755038.0800"
+      },
+      "TSM.US": {
+        "name": "台积电",
+        "market_cap": "2106278956140.0000"
+      },
+      "TXN.US": {
+        "name": "德州仪器",
+        "market_cap": "245700157441.4400"
+      },
+      "UMC.US": {
+        "name": "联电",
+        "market_cap": "46951957903.2000"
+      },
+      "VLN.US": {
+        "name": "Valens Semiconductor",
+        "market_cap": "176484184.7800"
+      },
+      "WKEY.US": {
+        "name": "Wisekey",
+        "market_cap": "73348930.7200"
+      },
+      "WOLF.US": {
+        "name": "Wolfspeed",
+        "market_cap": "1177045908.3500"
+      }
+    }
+  },
+  "isError": false
+}
+

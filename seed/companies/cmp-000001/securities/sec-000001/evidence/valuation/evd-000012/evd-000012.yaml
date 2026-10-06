@@ -1,0 +1,22 @@
+id: evd-000012
+type: evidence
+parent_id: sec-000001
+display_name: NVDA.US 行业估值排名序列
+status: active
+created_at: 2026-08-05T08:12:10+08:00
+updated_at: 2026-08-05T08:12:10+08:00
+as_of: 2026-08-05
+captured_at: 2026-08-05T08:12:10+08:00
+content_classification: fact
+source: longbridge
+transport: mcp
+tool: mcp__codex_apps__longbridge_valuation_rank
+parameters_json: '{"symbol":"NVDA.US","start":"20250805","end":"20260805"}'
+raw_path: companies/cmp-000001/securities/sec-000001/evidence/valuation/evd-000012/evd-000012.json
+content_hash_algorithm: sha256
+content_hash: d7a14afa4c6047bb45ad6385e99e0d82f40a70fb2e183a5ef65b76a1e1d4270f
+confidence: high
+acquisition_status: success
+schema_version: 1
+notes: 过去一年 PE/PB/PS/股息率行业排名序列。
+

@@ -1,0 +1,22 @@
+id: evd-000008
+type: evidence
+parent_id: cmp-000001
+display_name: NVIDIA 关键财务指标接口失败记录
+status: active
+created_at: 2026-08-05T08:12:10+08:00
+updated_at: 2026-08-05T08:12:10+08:00
+as_of: null
+captured_at: 2026-08-05T08:12:10+08:00
+content_classification: error
+source: longbridge
+transport: mcp
+tool: mcp__codex_apps__longbridge_financial_report_key_metrics
+parameters_json: '{"symbol":"NVDA.US","report":"qf"}'
+raw_path: companies/cmp-000001/evidence/financials/evd-000008/evd-000008.json
+content_hash_algorithm: sha256
+content_hash: 38b60f6ceeb3284e9baf37af99c5a9cabf65d4e7fe303cbd34645e09a41b561a
+confidence: high
+acquisition_status: failed
+schema_version: 1
+notes: AP-region account 不支持 US data center 的 fin-keyfactor API；未静默替换。
+

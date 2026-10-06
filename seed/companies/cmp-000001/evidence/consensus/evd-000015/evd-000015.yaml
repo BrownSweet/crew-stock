@@ -1,0 +1,22 @@
+id: evd-000015
+type: evidence
+parent_id: cmp-000001
+display_name: NVIDIA 机构评级与目标价
+status: active
+created_at: 2026-08-05T08:12:10+08:00
+updated_at: 2026-08-05T08:12:10+08:00
+as_of: 2026-07-31
+captured_at: 2026-08-05T08:12:10+08:00
+content_classification: opinion
+source: longbridge
+transport: mcp
+tool: mcp__codex_apps__longbridge_institution_rating
+parameters_json: '{"symbol":"NVDA.US"}'
+raw_path: companies/cmp-000001/evidence/consensus/evd-000015/evd-000015.json
+content_hash_algorithm: sha256
+content_hash: d614de3d02b1ffa9273948b9cfb80c23aade8a1dcdb304fe25a73444f2a1b5ea
+confidence: high
+acquisition_status: success
+schema_version: 1
+notes: 机构评级与目标价属于外部观点，不写入公司事实。
+

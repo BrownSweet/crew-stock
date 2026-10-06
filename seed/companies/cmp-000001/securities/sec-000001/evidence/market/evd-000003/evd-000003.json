@@ -1,0 +1,10 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "[{\"symbol\":\"NVDA.US\",\"last_done\":\"211.940\",\"prev_close\":\"206.640\",\"open\":\"211.300\",\"high\":\"213.060\",\"low\":\"209.050\",\"timestamp\":\"2026-08-04T20:00:00Z\",\"volume\":134921997,\"turnover\":\"28536486954.540\",\"trade_status\":\"Normal\",\"post_market\":{\"last_done\":\"216.500\",\"timestamp\":\"2026-08-04T23:59:58Z\",\"volume\":8321273,\"turnover\":\"1771301344.388\",\"high\":\"217.100\",\"low\":\"209.290\",\"prev_close\":\"211.940\"},\"overnight\":{\"last_done\":\"216.060\",\"timestamp\":\"2026-08-05T00:10:11Z\",\"volume\":21252,\"turnover\":\"4597100.970\",\"high\":\"216.530\",\"low\":\"216.030\",\"prev_close\":\"211.940\"},\"pre_market\":{\"last_done\":\"211.890\",\"timestamp\":\"2026-08-04T13:30:01Z\",\"volume\":1841270,\"turnover\":\"384920279.335\",\"high\":\"211.890\",\"low\":\"206.756\",\"prev_close\":\"206.640\"}}]"
+    }
+  ],
+  "isError": false
+}
+

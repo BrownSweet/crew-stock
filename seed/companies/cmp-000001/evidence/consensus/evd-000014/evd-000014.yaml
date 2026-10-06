@@ -1,0 +1,22 @@
+id: evd-000014
+type: evidence
+parent_id: cmp-000001
+display_name: NVIDIA 财务一致预期
+status: active
+created_at: 2026-08-05T08:12:10+08:00
+updated_at: 2026-08-05T08:12:10+08:00
+as_of: null
+captured_at: 2026-08-05T08:12:10+08:00
+content_classification: fact
+source: longbridge
+transport: mcp
+tool: mcp__codex_apps__longbridge_consensus
+parameters_json: '{"symbol":"NVDA.US"}'
+raw_path: companies/cmp-000001/evidence/consensus/evd-000014/evd-000014.json
+content_hash_algorithm: sha256
+content_hash: 0eb1f6ad364c80d7f4d3c03c05bac6f1165acc43c463bd41dc9cc5f9e10846dd
+confidence: high
+acquisition_status: success
+schema_version: 1
+notes: 未来季度收入、EBIT、净利润和 EPS 聚合预期；原始响应未给统一 as_of。
+

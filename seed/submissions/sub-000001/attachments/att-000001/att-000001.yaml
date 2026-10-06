@@ -1,0 +1,14 @@
+id: att-000001
+type: attachment
+parent_id: sub-000001
+display_name: 原始截图第 1 页
+status: active
+created_at: 2026-08-05T07:46:52+08:00
+updated_at: 2026-08-05T07:46:52+08:00
+media_type: image/jpeg
+pixel_dimensions: 1320x2868
+content_hash_algorithm: sha256
+content_hash: 0b428ae6f72635549e5534ef637b2d8afe8b5f8f2416fd43cc47de9e3bb02ff2
+raw_path: submissions/sub-000001/attachments/att-000001/att-000001.jpg
+source_filename: codex-clipboard-42798a76-2997-4b2e-90d1-e66a74d134ee.jpg
+page_order: 1

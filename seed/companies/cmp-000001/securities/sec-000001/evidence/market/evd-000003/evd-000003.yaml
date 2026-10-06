@@ -1,0 +1,22 @@
+id: evd-000003
+type: evidence
+parent_id: sec-000001
+display_name: NVDA.US 实时行情
+status: active
+created_at: 2026-08-05T08:12:10+08:00
+updated_at: 2026-08-05T08:12:10+08:00
+as_of: 2026-08-05
+captured_at: 2026-08-05T08:12:10+08:00
+content_classification: fact
+source: longbridge
+transport: mcp
+tool: mcp__codex_apps__longbridge_quote
+parameters_json: '{"symbols":["NVDA.US"]}'
+raw_path: companies/cmp-000001/securities/sec-000001/evidence/market/evd-000003/evd-000003.json
+content_hash_algorithm: sha256
+content_hash: 76312ae5730d4dc74455b5523edf10b85c6cb9a67007ad84a70c94797f1ee476
+confidence: high
+acquisition_status: success
+schema_version: 1
+notes: 包含常规时段、盘后和夜盘行情；以原始响应时间戳为准。
+

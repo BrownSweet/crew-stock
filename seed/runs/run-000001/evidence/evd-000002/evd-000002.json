@@ -1,0 +1,40 @@
+{
+  "captured_at": "2026-08-05T08:12:10+08:00",
+  "transport": "cli",
+  "binary": "/opt/homebrew/bin/longbridge",
+  "version": "0.26.0",
+  "commands": [
+    {
+      "command": "longbridge check --format json",
+      "exit_code": 0,
+      "result": {
+        "connectivity": {
+          "cn": {"ms": 0, "ok": false, "url": "https://openapi.longbridge.cn"},
+          "global": {"ms": 0, "ok": false, "url": "https://openapi.longbridge.com"}
+        },
+        "region": {
+          "active": "CN",
+          "cached": "cn",
+          "geotest": "unreachable",
+          "override": null,
+          "repinned_by_latency": false
+        },
+        "session": {
+          "detail": "Not authenticated. Please run 'longbridge auth login' first.",
+          "token": "invalid"
+        }
+      },
+      "stderr_summary": "Failed to create log file in /Users/brown/Library/Logs/Longbridge: Operation not permitted"
+    },
+    {
+      "command": "longbridge quote NVDA.US --format json",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr_summary": "Authentication failed: Not authenticated. Please run 'longbridge auth login' first."
+    }
+  ],
+  "fallback": {
+    "transport": "mcp",
+    "reason": "CLI was installed but not authorized or connected; MCP read tools were exposed and callable."
+  }
+}

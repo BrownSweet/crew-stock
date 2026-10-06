@@ -1,0 +1,44 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"name\":\"英伟达\",\"company_name\":\"NVIDIA Corporation\",\"founded\":\"1993\",\"listing_date\":\"\",\"market\":\"纳斯达克全球精选市场\",\"ticker\":\"NVDA\",\"region\":\"US\",\"address\":\"2788 San Tomas Expressway, Santa Clara, California, United States\",\"website\":\"www.nvidia.com\",\"icon\":\"https://assets.lbkrs.com/ticker/ST/US/NVDA.png\",\"issue_price\":\"\",\"shares_offered\":\"\",\"chairman\":\"\",\"secretary\":\"\",\"audit_inst\":\"\",\"category\":\"\",\"year_end\":\"1 月 25 日\",\"employees\":\"42000\",\"phone\":\"408 486 2000\",\"fax\":\"\",\"email\":\"\",\"legal_repr\":\"\",\"manager\":\"Jen-Hsun Huang\",\"bus_license\":\"\",\"accounting_firm\":\"\",\"securities_rep\":\"\",\"legal_counsel\":\"\",\"office_address\":\"\",\"zip_code\":\"\",\"ads_ratio\":\"\",\"profile\":\"NVIDIA Corporation 在美国、台湾、中国、香港、欧洲及国际上运营，作为一家数据中心规模的人工智能基础设施公司。它通过计算与网络和图形两个部门运营。计算与网络部门提供数据中心加速计算和网络平台，以及人工智能解决方案和软件，汽车平台以及包括软件在内的自动驾驶和电动车解决方案。图形部门则提供用于游戏和个人电脑的 GeForce GPU；用于企业工作站图形的 Quadro/NVIDIA RTX GPU\",\"sector\":0}"
+    }
+  ],
+  "structuredContent": {
+    "name": "英伟达",
+    "company_name": "NVIDIA Corporation",
+    "founded": "1993",
+    "listing_date": "",
+    "market": "纳斯达克全球精选市场",
+    "ticker": "NVDA",
+    "region": "US",
+    "address": "2788 San Tomas Expressway, Santa Clara, California, United States",
+    "website": "www.nvidia.com",
+    "icon": "https://assets.lbkrs.com/ticker/ST/US/NVDA.png",
+    "issue_price": "",
+    "shares_offered": "",
+    "chairman": "",
+    "secretary": "",
+    "audit_inst": "",
+    "category": "",
+    "year_end": "1 月 25 日",
+    "employees": "42000",
+    "phone": "408 486 2000",
+    "fax": "",
+    "email": "",
+    "legal_repr": "",
+    "manager": "Jen-Hsun Huang",
+    "bus_license": "",
+    "accounting_firm": "",
+    "securities_rep": "",
+    "legal_counsel": "",
+    "office_address": "",
+    "zip_code": "",
+    "ads_ratio": "",
+    "profile": "NVIDIA Corporation 在美国、台湾、中国、香港、欧洲及国际上运营，作为一家数据中心规模的人工智能基础设施公司。它通过计算与网络和图形两个部门运营。计算与网络部门提供数据中心加速计算和网络平台，以及人工智能解决方案和软件，汽车平台以及包括软件在内的自动驾驶和电动车解决方案。图形部门则提供用于游戏和个人电脑的 GeForce GPU；用于企业工作站图形的 Quadro/NVIDIA RTX GPU",
+    "sector": 0
+  },
+  "isError": false
+}
+

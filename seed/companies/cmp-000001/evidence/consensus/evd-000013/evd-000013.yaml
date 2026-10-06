@@ -1,0 +1,22 @@
+id: evd-000013
+type: evidence
+parent_id: cmp-000001
+display_name: NVIDIA EPS 预测历史
+status: active
+created_at: 2026-08-05T08:12:10+08:00
+updated_at: 2026-08-05T08:12:10+08:00
+as_of: 2026-07-31
+captured_at: 2026-08-05T08:12:10+08:00
+content_classification: fact
+source: longbridge
+transport: mcp
+tool: mcp__codex_apps__longbridge_forecast_eps
+parameters_json: '{"symbol":"NVDA.US"}'
+raw_path: companies/cmp-000001/evidence/consensus/evd-000013/evd-000013.json
+content_hash_algorithm: sha256
+content_hash: 826ac2a8d73fd3b72ef8aea521a294ffdcb636e3df546540768c3acd2a05af93
+confidence: high
+acquisition_status: success
+schema_version: 1
+notes: 预测历史为机构聚合数据，不是公司事实或保证。
+

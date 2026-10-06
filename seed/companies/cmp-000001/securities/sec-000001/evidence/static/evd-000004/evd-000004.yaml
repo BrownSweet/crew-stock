@@ -1,0 +1,22 @@
+id: evd-000004
+type: evidence
+parent_id: sec-000001
+display_name: NVDA.US 证券静态信息
+status: active
+created_at: 2026-08-05T08:12:10+08:00
+updated_at: 2026-08-05T08:12:10+08:00
+as_of: 2026-08-05
+captured_at: 2026-08-05T08:12:10+08:00
+content_classification: fact
+source: longbridge
+transport: mcp
+tool: mcp__codex_apps__longbridge_static_info
+parameters_json: '{"symbols":["NVDA.US"]}'
+raw_path: companies/cmp-000001/securities/sec-000001/evidence/static/evd-000004/evd-000004.json
+content_hash_algorithm: sha256
+content_hash: 1536fba153f6e52a6b925b6836b9babd6d96dc499a87957f1486f486d0e95838
+confidence: high
+acquisition_status: success
+schema_version: 1
+notes: 证券名称、交易所、币种、股本和每股指标。
+

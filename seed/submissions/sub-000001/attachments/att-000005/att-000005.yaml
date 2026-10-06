@@ -1,0 +1,14 @@
+id: att-000005
+type: attachment
+parent_id: sub-000001
+display_name: 原始截图第 5 页
+status: active
+created_at: 2026-08-05T07:46:52+08:00
+updated_at: 2026-08-05T07:46:52+08:00
+media_type: image/jpeg
+pixel_dimensions: 1320x2868
+content_hash_algorithm: sha256
+content_hash: e1c55e78addf3d0a0bf0ad75c6042b612db35c75e4a8ed1ee8ac26f4e25ca7d0
+raw_path: submissions/sub-000001/attachments/att-000005/att-000005.jpg
+source_filename: codex-clipboard-9da358af-201c-46fa-9680-e27b933a220e.jpg
+page_order: 5

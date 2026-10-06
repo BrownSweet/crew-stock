@@ -1,0 +1,14 @@
+id: att-000004
+type: attachment
+parent_id: sub-000001
+display_name: 原始截图第 4 页
+status: active
+created_at: 2026-08-05T07:46:52+08:00
+updated_at: 2026-08-05T07:46:52+08:00
+media_type: image/jpeg
+pixel_dimensions: 1320x2868
+content_hash_algorithm: sha256
+content_hash: 36a02dd1ff81940dc1545fb87f9bd1bd1932eecdf71bef178f9af989ff78b5b5
+raw_path: submissions/sub-000001/attachments/att-000004/att-000004.jpg
+source_filename: codex-clipboard-493cd71d-ca7c-42f7-924a-1c9b287cf0e6.jpg
+page_order: 4

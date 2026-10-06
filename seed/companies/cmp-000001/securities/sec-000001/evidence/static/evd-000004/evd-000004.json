@@ -1,0 +1,10 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "[{\"symbol\":\"NVDA.US\",\"name_cn\":\"英伟达\",\"name_en\":\"NVIDIA\",\"name_hk\":\"英偉達\",\"exchange\":\"NASD\",\"currency\":\"USD\",\"lot_size\":1,\"total_shares\":24300000000,\"circulating_shares\":23501828621,\"hk_shares\":0,\"eps\":\"4.9410288065843621\",\"eps_ttm\":\"6.5684362139917695\",\"bps\":\"8.0441975308641975\",\"dividend_yield\":\"0.28\",\"stock_derivatives\":\"OPTION\",\"board\":\"USMain\"}]"
+    }
+  ],
+  "isError": false
+}
+

@@ -1,0 +1,13 @@
+schema_version: 1
+updated_at: 2026-08-05T08:12:10+08:00
+next_sequence:
+  cmp: 2
+  sec: 2
+  ind: 2
+  doc: 2
+  run: 2
+  sub: 2
+  att: 6
+  evd: 18
+  opn: 2
+allocation_note: NVIDIA 首次人工试点已登记；后续应由确定性分配器和文件锁维护。

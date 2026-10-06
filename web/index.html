@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f4f5f0" />
+    <meta name="crew-base-path" content="/" />
+    <title>Crew Stock · 研究工作台</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="/static/style.css" />
+    <script src="/static/app.js" defer></script>
+    <script src="/static/workspace.js" defer></script>
+    <script src="/static/extensions.js" defer></script>
+    <script src="/static/decisions.js" defer></script>
+    <script src="/static/orders.js" defer></script>
+  </head>
+  <body class="signed-out">
+    <section id="login-panel" class="login-panel" aria-labelledby="login-title">
+      <div class="login-card">
+        <p class="eyebrow">CREW STOCK · 私有研究工作台</p>
+        <h1 id="login-title">正在连接工作台…</h1>
+        <p id="login-hint">首次使用时创建管理员账号。</p>
+        <form id="login-form" hidden>
+          <label for="login-username">账号</label>
+          <input id="login-username" autocomplete="username" required maxlength="64" />
+          <label for="login-password">密码</label>
+          <input id="login-password" type="password" autocomplete="current-password" required maxlength="256" />
+          <div id="login-confirm-group" hidden>
+            <label for="login-confirm">确认密码</label>
+            <input id="login-confirm" type="password" autocomplete="new-password" maxlength="256" />
+          </div>
+          <button id="login-submit" class="button dark" type="submit">登录</button>
+        </form>
+        <p id="login-error" role="alert"></p>
+        <button id="login-retry" class="button pale" type="button" hidden>重新连接</button>
+      </div>
+    </section>
+    <aside class="sidebar">
+      <a class="brand" href="/" aria-label="Crew Stock 首页"
+        ><span class="brand-mark">c<span>•</span></span
+        ><span>crew stock<small>AI RESEARCH WORKSPACE</small></span></a
+      >
+      <div class="nav-label">工作空间</div>
+      <nav aria-label="主要导航">
+        <button class="nav active" data-page="overview">
+          <span>◈</span> 研究工作台
+        </button>
+        <button class="nav" data-page="workspace">
+          <span>▥</span> 公司研究中心
+        </button>
+        <button class="nav" data-page="industries">
+          <span>◉</span> 行业研究中心
+        </button>
+        <button class="nav" data-page="assets">
+          <span>▧</span> 文件与图片
+        </button>
+        <button class="nav" data-page="decisions">
+          <span>◎</span> 决策与模拟
+        </button>
+        <button class="nav" data-page="orders">
+          <span>⇄</span> 供应链订单
+        </button>
+        <button class="nav" data-page="graph">
+          <span>⌘</span> 供应链影响图
+        </button>
+        <button class="nav" data-page="evidence">
+          <span>▤</span> 证据档案
+        </button>
+        <button class="nav" data-page="runs"><span>↗</span> 运行记录</button>
+        <button class="nav" data-page="submissions">
+          <span>✎</span> 观点与批注
+        </button>
+        <button class="nav" data-page="schedules">
+          <span>◷</span> 持续跟踪
+        </button>
+      </nav>
+      <div class="side-note">
+        <div class="signal-dot"></div>
+        让研究连续，让判断有据
+        <p>Longbridge × DeepSeek<br />CrewAI 驱动的长期研究档案</p>
+      </div>
+      <button class="nav settings-nav" data-page="settings">
+        <span>⚙</span> 连接设置
+        <span id="settings-dot" class="amber-dot"></span>
+      </button>
+      <div class="side-footer">LOCAL WORKSPACE <span>v0.5</span></div>
+    </aside>
+    <main>
+      <div class="account-bar"><span id="account-name"></span><button id="logout" class="button pale" type="button">退出登录</button></div>
+      <header>
+        <div class="breadcrumb">
+          工作空间 <span>/</span> <b id="page-label">研究工作台</b>
+        </div>
+        <div class="header-right">
+          <span class="local-badge">● 本地隔离运行</span
+          ><span class="avatar">B</span>
+        </div>
+      </header>
+      <div class="content">
+        <section class="page" id="page-overview">
+          <div class="page-heading">
+            <div>
+              <div class="eyebrow">RESEARCH, WITH CONTEXT</div>
+              <h1>把每一次观察，积累成认知。</h1>
+              <p>从原始证据到研究判断，持续跟踪你真正关心的公司。</p>
+            </div>
+            <button class="button dark" id="new-company">
+              ＋ 建立公司档案
+            </button>
+          </div>
+          <div id="setup-banner" class="setup-banner" hidden>
+            <div>
+              <b>连接数据与模型，开始第一次 AI 研究</b>
+              <p id="setup-text">正在检查连接状态…</p>
+            </div>
+            <button class="button pale" data-page="settings">配置连接 ↗</button>
+          </div>
+          <div class="stats" id="stats"></div>
+          <div class="workspace-grid">
+            <section class="card companies-card">
+              <div class="card-title">
+                <h2>研究对象</h2>
+                <span id="company-count" class="muted"></span>
+              </div>
+              <div id="company-list"></div>
+              <div class="card-foot">一家公司，一份持续更新的研究档案。</div>
+            </section>
+            <section class="card research-card">
+              <div class="card-title">
+                <h2>发起研究</h2>
+                <span class="tag green">证据驱动</span>
+              </div>
+              <form id="research-form">
+                <label for="research-company">公司档案</label
+                ><select id="research-company" required></select>
+                <div class="form-row">
+                  <div>
+                    <label for="research-symbol">证券代码</label
+                    ><select id="research-symbol" required></select>
+                  </div>
+                  <div>
+                    <label for="research-mode">研究方式</label
+                    ><select id="research-mode">
+                      <option value="research">最新数据 + AI 研究</option>
+                      <option value="collect">仅采集最新证据</option>
+                      <option value="archive">基于历史资料研究</option>
+                    </select>
+                  </div>
+                </div>
+                <label for="research-question">这次，你想弄清楚什么？</label
+                ><textarea
+                  id="research-question"
+                  rows="4"
+                  maxlength="4000"
+                  required
+                >
+分析基本面、市场预期与风险，哪些新证据支持或挑战当前判断？</textarea>
+                <div class="form-note">自动保存原始证据 · 研究判断待你确认</div>
+                <button class="button dark full" type="submit">
+                  开始研究 <span>↗</span>
+                </button>
+              </form>
+            </section>
+          </div>
+          <section class="card reports-card">
+            <div class="card-title">
+              <div>
+                <h2>研究档案</h2>
+                <p class="muted">历史基线与每次新研究，都可以回溯。</p>
+              </div>
+              <span class="subtle-label">RESEARCH LIBRARY</span>
+            </div>
+            <div id="report-list"></div>
+          </section>
+        </section>
+        <section class="page" id="page-workspace" hidden>
+          <div class="page-heading">
+            <div>
+              <div class="eyebrow">LONG-TERM RESEARCH</div>
+              <h1>从证据到决策，保留完整过程。</h1>
+              <p>持续追踪公司披露、管理层承诺、预期变化和自己的判断。</p>
+            </div>
+          </div>
+          <div class="ws-toolbar">
+            <label for="ws-company">公司档案</label
+            ><select id="ws-company"></select
+            ><button id="ws-refresh" class="button pale">刷新档案</button>
+          </div>
+          <nav class="ws-tabs" aria-label="研究模块">
+            <button data-ws-tab="timeline" class="active">长期档案</button
+            ><button data-ws-tab="disclosure">财报与电话会</button
+            ><button data-ws-tab="promise">承诺兑现</button
+            ><button data-ws-tab="expectations">预期与指引</button
+            ><button data-ws-tab="peers">行业与竞对</button
+            ><button data-ws-tab="decisions">决策与复盘</button>
+          </nav>
+          <div id="ws-content"></div>
+        </section>
+        <section class="page" id="page-industries" hidden>
+          <div class="page-heading">
+            <div>
+              <div class="eyebrow">INDUSTRY OBSERVATORY</div>
+              <h1>把公司放进行业，持续观察变化。</h1>
+              <p>独立公司档案 · 共同研究主题 · 行业研究历史</p>
+            </div>
+            <button class="button dark" id="industry-new">＋ 建立行业</button>
+          </div>
+          <div class="ws-toolbar">
+            <label for="industry-select">行业档案</label
+            ><select id="industry-select"></select
+            ><button class="button pale" id="industry-refresh">刷新行业</button>
+          </div>
+          <div id="industry-content"></div>
+        </section>
+        <section class="page" id="page-assets" hidden>
+          <div class="page-heading">
+            <div>
+              <div class="eyebrow">DOCUMENT INTELLIGENCE</div>
+              <h1>让原始资料，成为可追溯的证据。</h1>
+              <p>文件、截图和图表解析；原件与 AI 识别结果分别保存。</p>
+            </div>
+            <button class="button dark" id="asset-new">＋ 上传并解析</button>
+          </div>
+          <div class="ws-toolbar">
+            <label for="asset-target">关联档案</label
+            ><select id="asset-target"></select
+            ><button class="button pale" id="asset-refresh">
+              刷新解析状态
+            </button>
+          </div>
+          <p class="muted">
+            支持 PDF、Word、Excel、文本，以及 JPEG/PNG/WebP/静态
+            GIF。上传的解析范围会发送到所配置的 DeepSeek。PDF/图片使用
+            deepseek-flash；每文件最多 12 MiB，每次最多 20 页。
+          </p>
+          <div id="asset-content"></div>
+        </section>
+        <section class="page" id="page-decisions" hidden>
+          <div class="page-heading">
+            <div>
+              <div class="eyebrow">RESEARCH TO DECISION</div>
+              <h1>把研究判断，放进价格与风险中检验。</h1>
+              <p>
+                经营变化 → 盈利假设 → 估值情景 → 仓位预算 → 模拟执行 →
+                决策复盘。
+              </p>
+            </div>
+          </div>
+          <div class="ws-toolbar">
+            <label for="decision-company">研究公司</label
+            ><select id="decision-company"></select
+            ><button id="plan-new" class="button dark">生成开仓方案</button
+            ><button id="paper-new" class="button pale">新建模拟账户</button
+            ><button id="decision-refresh" class="button pale">刷新</button>
+          </div>
+          <p class="muted">
+            仅使用虚拟资金。估值与成交均是模型假设；系统不会向券商下单。模拟撮合使用新成交快照、成交量上限、费用和滑点，提交委托不代表成交。后台研究繁忙或容器停止时不会实时执行止损。
+          </p>
+          <div id="plan-content"></div>
+          <h2>模拟账户与执行记录</h2>
+          <div id="paper-content"></div>
+          <h2>决策与复盘档案</h2>
+          <div id="journal-content"></div>
+        </section>
+        <section class="page" id="page-orders" hidden>
+          <div class="page-heading">
+            <div>
+              <div class="eyebrow">ORDERS THROUGH TIME</div>
+              <h1>看见订单，也看见兑现的时间。</h1>
+              <p>
+                分开跟踪芯片与货物流、合同货款、交付和付款节点；每次变更都留下证据。
+              </p>
+            </div>
+          </div>
+          <div class="ws-toolbar">
+            <button id="order-new" class="button dark">＋ 登记订单</button
+            ><button id="party-new" class="button pale">
+              ＋ 未上市 / 业务主体</button
+            ><button id="order-extract" class="button pale">
+              从证据识别订单</button
+            ><button id="order-discover" class="button pale">
+              AI 自动采集订单线索</button
+            ><button id="order-refresh" class="button pale">刷新</button>
+          </div>
+          <div class="ws-toolbar">
+            <label for="order-scope">公司 / 行业范围</label
+            ><select id="order-scope"></select
+            ><label for="order-at">历史已知时点</label
+            ><input id="order-at" type="datetime-local" /><button
+              id="order-present"
+              class="button pale"
+            >
+              回到现在</button
+            ><label for="order-layer">流向</label
+            ><select id="order-layer">
+              <option value="both">货物流与资金流</option>
+              <option value="goods">仅货物流</option>
+              <option value="cash">仅资金流</option>
+            </select>
+          </div>
+          <p class="muted">
+            只展示已人工确认的订单版本。箭头表示合同安排，是否实际交付/收款请看里程碑及来源；订单金额不等于收入或回款。此图独立于供应链冲击计算。
+          </p>
+          <p class="muted">
+            自动采集按上方公司 / 行业范围查询长桥新闻与公告，AI 提取有来源的待核对候选；不需要先上传文件或登记订单。每轮最多 5 家公司，公开资料无法覆盖私有合同。
+          </p>
+          <div id="order-graph" class="order-graph"></div>
+          <div id="order-alerts"></div>
+          <div id="order-list"></div>
+          <h2>待核对的订单与变更</h2>
+          <div id="order-proposals"></div>
+          <h2>分析与监控记录</h2>
+          <div id="order-scans"></div>
+        </section>
+        <section class="page" id="page-graph" hidden>
+          <div class="page-heading">
+            <div>
+              <div class="eyebrow">SUPPLY CHAIN INFLUENCE</div>
+              <h1>沿着证据，看见依赖与传导。</h1>
+              <p>
+                箭头表示影响方向，虚线为待审核关系。权重是研究假设，情景结果不是股价预测。
+              </p>
+            </div>
+          </div>
+          <div class="ws-toolbar">
+            <label for="graph-scope">图谱范围</label
+            ><select id="graph-scope"></select
+            ><label for="graph-depth">关联层数</label
+            ><select id="graph-depth">
+              <option value="1">直接一级</option>
+              <option value="2" selected>两级</option>
+              <option value="3">三级</option>
+              <option value="6">最多六级</option></select
+            ><label
+              ><input
+                id="graph-proposals"
+                type="checkbox"
+                checked
+              />显示待审核关系</label
+            ><button class="button pale" id="graph-refresh">刷新图谱</button>
+          </div>
+          <div class="ws-toolbar">
+            <button class="button dark" id="graph-add">＋ 登记关系</button
+            ><button class="button pale" id="graph-ai">从证据提取关系</button
+            ><button class="button pale" id="graph-sim">设置冲击情景</button
+            ><label for="graph-zoom">缩放</label
+            ><input
+              type="range"
+              id="graph-zoom"
+              min="70"
+              max="180"
+              value="100"
+            />
+          </div>
+          <div id="graph-status" aria-live="polite"></div>
+          <div class="graph-viewport" id="graph-canvas"></div>
+          <div id="graph-detail"></div>
+          <div id="graph-history"></div>
+        </section>
+        <section class="page" id="page-evidence" hidden>
+          <div class="page-heading">
+            <div>
+              <div class="eyebrow">EVIDENCE LIBRARY</div>
+              <h1>原始证据，是判断的起点。</h1>
+              <p>保留来源、业务日期、采集时间和原始内容，记录每一次失败。</p>
+            </div>
+          </div>
+          <div class="toolbar">
+            <label for="evidence-filter">公司筛选</label
+            ><select id="evidence-filter"></select>
+          </div>
+          <div class="card"><div id="evidence-list"></div></div>
+        </section>
+        <section class="page" id="page-runs" hidden>
+          <div class="page-heading">
+            <div>
+              <div class="eyebrow">AGENT ACTIVITY</div>
+              <h1>每一步研究，都有记录。</h1>
+              <p>采集 → 长桥技能分析 → 结构化校验 → 待确认报告</p>
+            </div>
+          </div>
+          <div class="card" id="run-list"></div>
+        </section>
+        <section class="page" id="page-submissions" hidden>
+          <div class="page-heading">
+            <div>
+              <div class="eyebrow">YOUR PERSPECTIVE</div>
+              <h1>留下观点，也留下上下文。</h1>
+              <p>保存文章摘录与自己的批注。下一次研究会作为待核实资料参考。</p>
+            </div>
+          </div>
+          <div class="workspace-grid">
+            <form class="card padded" id="submission-form">
+              <label for="submission-company">关联公司</label
+              ><select id="submission-company" required></select
+              ><label for="submission-text">原文 / 外部观点</label
+              ><textarea
+                id="submission-text"
+                rows="8"
+                maxlength="30000"
+                required
+                placeholder="粘贴你想继续追踪的内容…"
+              ></textarea
+              ><label for="submission-url">原始来源链接（可选，仅保存）</label
+              ><input
+                id="submission-url"
+                type="url"
+                maxlength="2000"
+                placeholder="https://"
+              /><label for="submission-note">你的批注（可选）</label
+              ><textarea
+                id="submission-note"
+                rows="3"
+                maxlength="8000"
+              ></textarea
+              ><button class="button dark full">保存观点</button>
+            </form>
+            <div class="card" id="submission-list"></div>
+          </div>
+        </section>
+        <section class="page" id="page-schedules" hidden>
+          <div class="page-heading">
+            <div>
+              <div class="eyebrow">CONTINUOUS RESEARCH</div>
+              <h1>给重要的公司，持续的关注。</h1>
+              <p>计划创建后默认暂停，由你启用。容器运行期间按间隔执行。</p>
+            </div>
+          </div>
+          <div class="workspace-grid">
+            <form class="card padded" id="schedule-form">
+              <label for="schedule-company">公司档案</label
+              ><select id="schedule-company"></select
+              ><label for="schedule-symbol">证券代码</label
+              ><select id="schedule-symbol"></select
+              ><label for="schedule-interval">间隔小时数</label
+              ><input
+                id="schedule-interval"
+                type="number"
+                min="1"
+                max="720"
+                value="24"
+                required
+              /><label for="schedule-mode">任务类型</label
+              ><select id="schedule-mode">
+                <option value="collect">只采集长桥证据</option>
+                <option value="research">采集并进行 DeepSeek 研究</option>
+              </select>
+              <p class="form-note">
+                失败不会将旧资料伪装为新数据。模型研究会产生 API 费用。
+              </p>
+              <button class="button dark full">创建暂停的计划</button>
+            </form>
+            <div class="card" id="schedule-list"></div>
+          </div>
+        </section>
+        <section class="page" id="page-settings" hidden>
+          <div class="page-heading">
+            <div>
+              <div class="eyebrow">CONNECTIONS</div>
+              <h1>连接你的研究能力。</h1>
+              <p>
+                凭据保存在本项目的 Docker 持久卷内，连接状态与其他应用独立。
+              </p>
+            </div>
+          </div>
+          <div class="workspace-grid">
+            <section class="card padded">
+              <div class="provider-heading">
+                <span class="provider-icon">D</span>
+                <div>
+                  <h2>DeepSeek</h2>
+                  <p class="muted">研究推理与结构化报告</p>
+                </div>
+                <span id="deepseek-state" class="tag amber">待配置</span>
+              </div>
+              <form id="settings-form">
+                <label for="api-key">API Key</label
+                ><input
+                  id="api-key"
+                  type="password"
+                  autocomplete="new-password"
+                  placeholder="输入新的 Key；留空保留已有配置"
+                /><label for="model">模型名称</label
+                ><input
+                  id="model"
+                  value="deepseek-flash"
+                  required
+                  pattern="deepseek-[a-zA-Z0-9._-]+"
+                /><label for="base-url">API 地址</label
+                ><select id="base-url">
+                  <option>https://api.deepseek.com</option>
+                  <option>https://api.deepseek.com/v1</option>
+                </select>
+                <div class="button-row">
+                  <button class="button dark">保存配置</button
+                  ><button type="button" class="button pale" id="test-deepseek">
+                    测试模型连接
+                  </button>
+                </div>
+                <p
+                  id="deepseek-result"
+                  class="test-result"
+                  aria-live="polite"
+                ></p>
+              </form>
+            </section>
+            <section class="card padded">
+              <div class="provider-heading">
+                <span class="provider-icon lb">L</span>
+                <div>
+                  <h2>长桥 Longbridge</h2>
+                  <p class="muted">公司、财报、行情与公开资讯</p>
+                </div>
+                <span id="longbridge-state" class="tag amber">待授权</span>
+              </div>
+              <p class="body-copy">
+                在长桥官方页面取得授权码，粘贴到下方完成本容器授权。Agent
+                仅能调用已开放的研究查询。
+              </p>
+              <a
+                class="text-link"
+                href="https://open.longbridge.com/connect"
+                target="_blank"
+                rel="noopener noreferrer"
+                >打开长桥授权页面 ↗</a
+              >
+              <form id="auth-form">
+                <label for="auth-code">一次性授权码</label
+                ><input
+                  id="auth-code"
+                  type="password"
+                  autocomplete="off"
+                  required
+                  maxlength="4096"
+                  placeholder="粘贴刚获取的授权码"
+                />
+                <div class="button-row">
+                  <button class="button dark">完成授权</button
+                  ><button
+                    type="button"
+                    class="button pale"
+                    id="test-longbridge"
+                  >
+                    测试行情连接
+                  </button>
+                </div>
+                <p
+                  id="longbridge-result"
+                  class="test-result"
+                  aria-live="polite"
+                ></p>
+              </form>
+            </section>
+          </div>
+          <section class="card padded architecture">
+            <h2>研究能力</h2>
+            <div class="pipeline">
+              <span>长桥只读数据</span><b>→</b><span>原始证据 & 变化记录</span
+              ><b>→</b><span>CrewAI + DeepSeek</span><b>→</b
+              ><span>你的审阅</span>
+            </div>
+            <p class="muted">
+              加载长桥基础、基本面和资讯技能。没有下单、撤单或账户修改工具。
+            </p>
+          </section>
+        </section>
+      </div>
+      <footer>
+        CREW STOCK <span>Evidence first. Perspective over time.</span
+        ><span>数据来自长桥 · 判断留给你</span>
+      </footer>
+    </main>
+    <dialog id="company-dialog">
+      <form id="company-form">
+        <div class="dialog-title">
+          <h2>建立公司档案</h2>
+          <button
+            type="button"
+            class="icon-button"
+            data-close
+            aria-label="关闭"
+          >
+            ×
+          </button>
+        </div>
+        <label for="company-name">公司名称</label
+        ><input
+          id="company-name"
+          maxlength="160"
+          required
+          placeholder="如：苹果公司"
+        /><label for="company-symbols">证券代码（多个用逗号分隔）</label
+        ><input id="company-symbols" required placeholder="AAPL.US" /><label
+          for="company-purpose"
+          >研究目的</label
+        ><textarea id="company-purpose" maxlength="2000" rows="3">
+长期跟踪基本面、预期变化与反方证据</textarea
+        ><button class="button dark full">创建档案</button>
+      </form>
+    </dialog>
+    <dialog id="detail-dialog">
+      <div class="dialog-title">
+        <h2 id="detail-title">研究详情</h2>
+        <button type="button" class="icon-button" data-close aria-label="关闭">
+          ×
+        </button>
+      </div>
+      <div id="detail-content"></div>
+    </dialog>
+    <div id="toast" role="status" aria-live="polite" hidden></div>
+  </body>
+</html>

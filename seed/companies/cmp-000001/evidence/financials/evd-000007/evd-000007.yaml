@@ -1,0 +1,22 @@
+id: evd-000007
+type: evidence
+parent_id: cmp-000001
+display_name: NVIDIA 季度三表与财务指标
+status: active
+created_at: 2026-08-05T08:12:10+08:00
+updated_at: 2026-08-05T08:12:10+08:00
+as_of: 2026-04-26
+captured_at: 2026-08-05T08:12:10+08:00
+content_classification: fact
+source: longbridge
+transport: mcp
+tool: mcp__codex_apps__longbridge_financial_report
+parameters_json: '{"symbol":"NVDA.US","kind":"ALL","report_type":"qf"}'
+raw_path: companies/cmp-000001/evidence/financials/evd-000007/evd-000007.json
+content_hash_algorithm: sha256
+content_hash: 2405ad11cac29825a10a00aa1395c8e6f2274edd7e2bb56fa2025af70a632a5f
+confidence: high
+acquisition_status: success
+schema_version: 1
+notes: 返回长历史序列；最新期间标为 Q1 2027，业务截止时间由 fp_end 转换。
+

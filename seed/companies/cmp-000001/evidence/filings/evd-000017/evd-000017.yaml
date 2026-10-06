@@ -1,0 +1,22 @@
+id: evd-000017
+type: evidence
+parent_id: cmp-000001
+display_name: NVIDIA SEC 文件列表
+status: active
+created_at: 2026-08-05T08:12:10+08:00
+updated_at: 2026-08-05T08:12:10+08:00
+as_of: 2026-07-20
+captured_at: 2026-08-05T08:12:10+08:00
+content_classification: fact
+source: longbridge
+transport: mcp
+tool: mcp__codex_apps__longbridge_filings
+parameters_json: '{"symbol":"NVDA.US"}'
+raw_path: companies/cmp-000001/evidence/filings/evd-000017/evd-000017.json
+content_hash_algorithm: sha256
+content_hash: 281b3f572ee551c3f6abe6dcf05072947d3cf274595c3b8f1c5d1e74af934bbd
+confidence: high
+acquisition_status: success
+schema_version: 1
+notes: 文件索引和 SEC URL；本轮未下载 10-Q/8-K 正文。
+

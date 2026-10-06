@@ -1,0 +1,26 @@
+id: sec-000001
+type: security
+parent_id: cmp-000001
+company_id: cmp-000001
+display_name: NVIDIA Corporation common equity
+symbol: NVDA.US
+name_zh_cn: 英伟达
+name_en: NVIDIA
+market: US
+exchange_as_returned: NASD
+board_as_returned: USMain
+currency: USD
+security_type_as_returned: US_Stock
+lot_size: 1
+status: active
+created_at: 2026-08-05T08:12:10+08:00
+updated_at: 2026-08-05T08:12:10+08:00
+source_evidence_ids:
+  - evd-000003
+  - evd-000004
+  - evd-000005
+  - evd-000010
+  - evd-000011
+  - evd-000012
+valuation_status: point_in_time_only
+trading_decision_status: none

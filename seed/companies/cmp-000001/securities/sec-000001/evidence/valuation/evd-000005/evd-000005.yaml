@@ -1,0 +1,22 @@
+id: evd-000005
+type: evidence
+parent_id: sec-000001
+display_name: NVDA.US 行情与估值计算指标
+status: active
+created_at: 2026-08-05T08:12:10+08:00
+updated_at: 2026-08-05T08:12:10+08:00
+as_of: 2026-08-05
+captured_at: 2026-08-05T08:12:10+08:00
+content_classification: fact
+source: longbridge
+transport: mcp
+tool: mcp__codex_apps__longbridge_calc_indexes
+parameters_json: '{"symbols":["NVDA.US"],"indexes":["LastDone","ChangeValue","ChangeRate","Volume","Turnover","PeTtmRatio","PbRatio","DividendRatioTtm","TurnoverRate","TotalMarketValue","YtdChangeRate"]}'
+raw_path: companies/cmp-000001/securities/sec-000001/evidence/valuation/evd-000005/evd-000005.json
+content_hash_algorithm: sha256
+content_hash: b0b3fd7d8e3643b84ed539c1af885a17a3bbbcea02ca4bd97e0782eeb143642f
+confidence: high
+acquisition_status: success
+schema_version: 1
+notes: 点时值；与估值页面的 EOD 口径可能不同。
+

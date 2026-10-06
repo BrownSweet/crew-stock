@@ -1,0 +1,19 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "McpServerError: longbridge: this API (/v1/us/stock-info/fin-keyfactor) is only available in the US data center and is not supported for your AP-region account"
+    }
+  ],
+  "structuredContent": {
+    "error": "McpServerError: longbridge: this API (/v1/us/stock-info/fin-keyfactor) is only available in the US data center and is not supported for your AP-region account",
+    "error_code": "UNAVAILABLE",
+    "error_data": {
+      "type": "json_rpc_error",
+      "code": -32603,
+      "message": "longbridge: this API (/v1/us/stock-info/fin-keyfactor) is only available in the US data center and is not supported for your AP-region account"
+    }
+  },
+  "isError": true
+}
+

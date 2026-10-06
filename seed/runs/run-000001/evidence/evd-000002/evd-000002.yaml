@@ -1,0 +1,22 @@
+id: evd-000002
+type: evidence
+parent_id: run-000001
+display_name: Longbridge CLI 诊断与 NVDA.US 行情失败记录
+status: active
+created_at: 2026-08-05T08:12:10+08:00
+updated_at: 2026-08-05T08:12:10+08:00
+as_of: 2026-08-05
+captured_at: 2026-08-05T08:12:10+08:00
+content_classification: error
+source: longbridge
+transport: cli
+tool: longbridge check; longbridge quote
+parameters_json: '{"symbol":"NVDA.US","format":"json"}'
+raw_path: runs/run-000001/evidence/evd-000002/evd-000002.json
+content_hash_algorithm: sha256
+content_hash: 03c0152701a6c6ca06500f1b23c72b18924d4347ff0edfcd514819c9a3c063ed
+confidence: high
+acquisition_status: failed
+schema_version: 1
+notes: CLI 0.26.0 已安装，但 token invalid，CN/global 均不可达；随后显式回退 MCP。
+

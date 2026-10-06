@@ -1,0 +1,29 @@
+id: evd-000001
+type: evidence
+parent_id: sub-000001
+display_name: 英伟达指引光模块 CPO 原始截图组
+status: active
+created_at: 2026-08-05T07:46:52+08:00
+updated_at: 2026-08-05T07:46:52+08:00
+as_of: null
+captured_at: 2026-08-05T07:46:52+08:00
+content_classification: opinion
+source: user_upload
+transport: local_file
+command: null
+original_url: null
+raw_paths:
+  - submissions/sub-000001/attachments/att-000001/att-000001.jpg
+  - submissions/sub-000001/attachments/att-000002/att-000002.jpg
+  - submissions/sub-000001/attachments/att-000003/att-000003.jpg
+  - submissions/sub-000001/attachments/att-000004/att-000004.jpg
+  - submissions/sub-000001/attachments/att-000005/att-000005.jpg
+source_id: sub-000001
+content_hash_algorithm: sha256_of_ordered_sha256_manifest
+content_hash: c86b4926e89a0013b49b9d4ce5c9313277e40c0eb5caa6c31f8e5d116e6b7376
+confidence: medium
+extraction_method: manual_visual_reading
+extraction_confidence: 0.90
+ocr_status: failed_environment
+author_status: unresolved
+verification_status: unverified

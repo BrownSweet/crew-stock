@@ -1,0 +1,45 @@
+id: cmp-000001
+type: company
+parent_id: null
+display_name: NVIDIA Corporation
+name_zh_cn: 英伟达
+aliases:
+  - NVIDIA
+  - 英伟达
+jurisdiction: US
+status: active
+research_stage: human_pilot
+created_at: 2026-08-05T08:12:10+08:00
+updated_at: 2026-08-05T08:12:10+08:00
+founded_year: 1993
+website: https://www.nvidia.com
+headquarters: 2788 San Tomas Expressway, Santa Clara, California, United States
+manager_name_as_returned: Jen-Hsun Huang
+employees_as_returned: 42000
+fiscal_year_end_as_returned: 1 月 25 日
+security_ids:
+  - sec-000001
+industry_ids:
+  - ind-000001
+document_ids:
+  - doc-000001
+opinion_ids:
+  - opn-000001
+research_purpose: 长期跟踪基本面、竞争壁垒和 AI 产业链变化
+key_questions:
+  - 数据中心业务和 AI GPU 需求能否持续增长
+  - CUDA、NVLink、Spectrum-X 等平台的竞争壁垒
+  - Blackwell 及后续产品的出货、毛利率和供应约束
+  - Scale-up、CPO、光互连对英伟达系统能力的影响
+  - AMD、自研 ASIC 和云厂商自研芯片带来的竞争风险
+source_evidence_ids:
+  - evd-000006
+  - evd-000007
+  - evd-000009
+  - evd-000013
+  - evd-000014
+  - evd-000015
+  - evd-000016
+  - evd-000017
+thesis_status: not_established
+scheduled_tasks_enabled: false

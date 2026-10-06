@@ -1,0 +1,30 @@
+id,type,parent_id,display_name,status,created_at,path,aliases,notes
+sub-000001,submission,,英伟达指引光模块 CPO 截图投稿,active,2026-08-05T07:46:52+08:00,submissions/sub-000001,,用户明确要求创建观点
+att-000001,attachment,sub-000001,原始截图第 1 页,active,2026-08-05T07:46:52+08:00,submissions/sub-000001/attachments/att-000001,,原始文件未改写
+att-000002,attachment,sub-000001,原始截图第 2 页,active,2026-08-05T07:46:52+08:00,submissions/sub-000001/attachments/att-000002,,原始文件未改写
+att-000003,attachment,sub-000001,原始截图第 3 页,active,2026-08-05T07:46:52+08:00,submissions/sub-000001/attachments/att-000003,,原始文件未改写
+att-000004,attachment,sub-000001,原始截图第 4 页,active,2026-08-05T07:46:52+08:00,submissions/sub-000001/attachments/att-000004,,原始文件未改写
+att-000005,attachment,sub-000001,原始截图第 5 页,active,2026-08-05T07:46:52+08:00,submissions/sub-000001/attachments/att-000005,,原始文件未改写
+evd-000001,evidence,sub-000001,英伟达指引光模块 CPO 原始截图组,active,2026-08-05T07:46:52+08:00,submissions/sub-000001/extracted_objects/evidence/evd-000001,,机器 OCR 失败后按可见截图人工结构化摘录
+opn-000001,opinion,sub-000001,AI 光互连价值由 Scale-out 向 Scale-up 迁移,active,2026-08-05T07:46:52+08:00,submissions/sub-000001/extracted_objects/opinions/opn-000001,,作者与发布时间未确认
+cmp-000001,company,,NVIDIA Corporation,active,2026-08-05T08:12:10+08:00,companies/cmp-000001,NVIDIA|英伟达,首家人工试点公司
+sec-000001,security,cmp-000001,NVDA.US,active,2026-08-05T08:12:10+08:00,companies/cmp-000001/securities/sec-000001,NVDA|英伟达,归属 cmp-000001
+ind-000001,industry,,AI 加速计算与数据中心网络,active,2026-08-05T08:12:10+08:00,industries/ind-000001,AI GPU 与高速互连,用户确认的研究主题
+doc-000001,document,cmp-000001,NVIDIA 人工试点基线,active,2026-08-05T08:12:10+08:00,companies/cmp-000001/documents/doc-000001,,模型分析待用户确认
+run-000001,run,cmp-000001,NVIDIA 首次人工试点建档,active,2026-08-05T08:12:10+08:00,runs/run-000001,,CLI 失败后显式切换 MCP
+evd-000002,evidence,run-000001,Longbridge CLI 诊断与 NVDA.US 行情失败记录,active,2026-08-05T08:12:10+08:00,runs/run-000001/evidence/evd-000002,,CLI 未授权且端点不可达
+evd-000003,evidence,sec-000001,NVDA.US 实时行情,active,2026-08-05T08:12:10+08:00,companies/cmp-000001/securities/sec-000001/evidence/market/evd-000003,,Longbridge MCP
+evd-000004,evidence,sec-000001,NVDA.US 证券静态信息,active,2026-08-05T08:12:10+08:00,companies/cmp-000001/securities/sec-000001/evidence/static/evd-000004,,Longbridge MCP
+evd-000005,evidence,sec-000001,NVDA.US 行情与估值计算指标,active,2026-08-05T08:12:10+08:00,companies/cmp-000001/securities/sec-000001/evidence/valuation/evd-000005,,Longbridge MCP
+evd-000006,evidence,cmp-000001,NVIDIA 公司概况,active,2026-08-05T08:12:10+08:00,companies/cmp-000001/evidence/company/evd-000006,,Longbridge MCP
+evd-000007,evidence,cmp-000001,NVIDIA 季度三表与财务指标,active,2026-08-05T08:12:10+08:00,companies/cmp-000001/evidence/financials/evd-000007,,Longbridge MCP
+evd-000008,evidence,cmp-000001,NVIDIA 关键财务指标接口失败记录,active,2026-08-05T08:12:10+08:00,companies/cmp-000001/evidence/financials/evd-000008,,AP region 不支持 US-only endpoint
+evd-000009,evidence,cmp-000001,NVIDIA 业务与地区分部,active,2026-08-05T08:12:10+08:00,companies/cmp-000001/evidence/segments/evd-000009,,返回日期字段不一致
+evd-000010,evidence,sec-000001,NVDA.US 当前估值与同行比较,active,2026-08-05T08:12:10+08:00,companies/cmp-000001/securities/sec-000001/evidence/valuation/evd-000010,,Longbridge MCP
+evd-000011,evidence,sec-000001,NVDA.US 历史估值序列,active,2026-08-05T08:12:10+08:00,companies/cmp-000001/securities/sec-000001/evidence/valuation/evd-000011,,Longbridge MCP
+evd-000012,evidence,sec-000001,NVDA.US 行业估值排名序列,active,2026-08-05T08:12:10+08:00,companies/cmp-000001/securities/sec-000001/evidence/valuation/evd-000012,,Longbridge MCP
+evd-000013,evidence,cmp-000001,NVIDIA EPS 预测历史,active,2026-08-05T08:12:10+08:00,companies/cmp-000001/evidence/consensus/evd-000013,,Longbridge MCP
+evd-000014,evidence,cmp-000001,NVIDIA 财务一致预期,active,2026-08-05T08:12:10+08:00,companies/cmp-000001/evidence/consensus/evd-000014,,Longbridge MCP
+evd-000015,evidence,cmp-000001,NVIDIA 机构评级与目标价,active,2026-08-05T08:12:10+08:00,companies/cmp-000001/evidence/consensus/evd-000015,,外部观点聚合
+evd-000016,evidence,cmp-000001,NVIDIA 最新新闻列表,active,2026-08-05T08:12:10+08:00,companies/cmp-000001/evidence/news/evd-000016,,标题和摘要列表
+evd-000017,evidence,cmp-000001,NVIDIA SEC 文件列表,active,2026-08-05T08:12:10+08:00,companies/cmp-000001/evidence/filings/evd-000017,,文件索引和 URL

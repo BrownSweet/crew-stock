@@ -1,0 +1,26 @@
+id: ind-000001
+type: industry
+parent_id: null
+display_name: AI 加速计算与数据中心网络
+aliases:
+  - AI accelerated computing and data-center networking
+  - AI GPU 与高速互连
+classification_type: research_theme
+status: active
+created_at: 2026-08-05T08:12:10+08:00
+updated_at: 2026-08-05T08:12:10+08:00
+scope:
+  - AI 加速器与系统
+  - GPU/XPU Scale-up 与 Scale-out 互连
+  - 数据中心网络与交换
+  - NPO、CPO 和光 I/O
+members:
+  - company_id: cmp-000001
+    display_name: NVIDIA Corporation
+    role: AI 加速计算、网络平台和系统架构
+    evidence_ids:
+      - evd-000006
+related_opinion_ids:
+  - opn-000001
+membership_status: human_confirmed
+thesis_status: not_established

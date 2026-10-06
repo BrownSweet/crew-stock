@@ -1,0 +1,60 @@
+id: run-000001
+type: run
+parent_id: cmp-000001
+display_name: NVIDIA 首次人工试点建档
+status: completed_with_warnings
+created_at: 2026-08-05T08:12:10+08:00
+updated_at: 2026-08-05T08:12:10+08:00
+started_at: 2026-08-05T07:57:00+08:00
+completed_at: 2026-08-05T08:12:10+08:00
+mode: interactive_read_only
+skill_routes:
+  - longbridge:longbridge
+  - longbridge:longbridge-market-data
+  - longbridge:longbridge-fundamentals
+  - longbridge:longbridge-research
+  - longbridge:longbridge-content
+transport_summary:
+  cli:
+    installed: true
+    version: 0.26.0
+    authorized: false
+    connected: false
+    callable: false
+    result: failed
+    evidence_id: evd-000002
+  mcp:
+    exposed: true
+    authorized: true
+    callable: true
+    calls_total: 15
+    calls_succeeded: 14
+    calls_failed: 1
+    result: completed_with_one_endpoint_error
+evidence_ids:
+  - evd-000002
+  - evd-000003
+  - evd-000004
+  - evd-000005
+  - evd-000006
+  - evd-000007
+  - evd-000008
+  - evd-000009
+  - evd-000010
+  - evd-000011
+  - evd-000012
+  - evd-000013
+  - evd-000014
+  - evd-000015
+  - evd-000016
+  - evd-000017
+created_object_ids:
+  - cmp-000001
+  - sec-000001
+  - ind-000001
+  - doc-000001
+  - run-000001
+updated_object_ids:
+  - opn-000001
+scheduled_tasks_created: false
+trade_actions_attempted: false

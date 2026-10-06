@@ -1,0 +1,22 @@
+id: evd-000009
+type: evidence
+parent_id: cmp-000001
+display_name: NVIDIA 业务与地区分部
+status: active
+created_at: 2026-08-05T08:12:10+08:00
+updated_at: 2026-08-05T08:12:10+08:00
+as_of: 2026-04-30
+captured_at: 2026-08-05T08:12:10+08:00
+content_classification: fact
+source: longbridge
+transport: mcp
+tool: mcp__codex_apps__longbridge_business_segments
+parameters_json: '{"symbol":"NVDA.US"}'
+raw_path: companies/cmp-000001/evidence/segments/evd-000009/evd-000009.json
+content_hash_algorithm: sha256
+content_hash: 5cd7c765c85db7680544347c29e0f5bec36a0bbdf89224e69ff0661ac3948d1e
+confidence: high
+acquisition_status: success
+schema_version: 1
+notes: 响应内部 date/fp_end 与 rpt_date 存在明显跨年不一致，使用前需核对公司原始文件。
+

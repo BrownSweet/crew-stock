@@ -1,0 +1,106 @@
+id: sub-000001
+type: submission
+parent_id: null
+display_name: 英伟达指引光模块 CPO 截图投稿
+status: active
+created_at: 2026-08-05T07:46:52+08:00
+updated_at: 2026-08-05T08:12:10+08:00
+submitted_by: user
+submission_kind: image_screenshots
+source_title: 英伟达指引“光模块 cpo”
+source_author: null
+author_resolution_status: unresolved
+original_url: null
+published_at: null
+source_resolution_status: unresolved
+content_hash_algorithm: sha256_of_ordered_sha256_manifest
+content_hash: c86b4926e89a0013b49b9d4ce5c9313277e40c0eb5caa6c31f8e5d116e6b7376
+attachment_ids:
+  - att-000001
+  - att-000002
+  - att-000003
+  - att-000004
+  - att-000005
+extracted_object_ids:
+  - evd-000001
+  - opn-000001
+user_annotation: null
+entity_candidates:
+  - mention: NVIDIA
+    suggested_type: company
+    matched_id: cmp-000001
+    match_status: human_confirmed
+    confidence: 0.99
+    suggested_action: none
+    status: resolved
+  - mention: Broadcom
+    suggested_type: company
+    matched_id: null
+    match_status: not_found
+    confidence: 0.99
+    suggested_action: create_company_candidate
+    status: pending_confirmation
+  - mention: Lumentum
+    suggested_type: company
+    matched_id: null
+    match_status: not_found
+    confidence: 0.99
+    suggested_action: create_company_candidate
+    status: pending_confirmation
+  - mention: Coherent
+    suggested_type: company
+    matched_id: null
+    match_status: not_found
+    confidence: 0.99
+    suggested_action: create_company_candidate
+    status: pending_confirmation
+  - mention: Marvell
+    suggested_type: company
+    matched_id: null
+    match_status: not_found
+    confidence: 0.99
+    suggested_action: create_company_candidate
+    status: pending_confirmation
+  - mention: TSMC
+    suggested_type: company
+    matched_id: null
+    match_status: not_found
+    confidence: 0.99
+    suggested_action: create_company_candidate
+    status: pending_confirmation
+  - mention: ASE
+    suggested_type: company
+    matched_id: null
+    match_status: not_found
+    confidence: 0.97
+    suggested_action: create_company_candidate
+    status: pending_confirmation
+  - mention: Corning
+    suggested_type: company
+    matched_id: null
+    match_status: not_found
+    confidence: 0.99
+    suggested_action: create_company_candidate
+    status: pending_confirmation
+  - mention: Fabrinet
+    suggested_type: company
+    matched_id: null
+    match_status: not_found
+    confidence: 0.99
+    suggested_action: create_company_candidate
+    status: pending_confirmation
+  - mention: AI 数据中心光互连（可插拔光模块、NPO、CPO 与光 I/O）
+    suggested_type: industry
+    matched_id: ind-000001
+    match_status: human_confirmed_related_theme
+    confidence: 0.98
+    suggested_action: none
+    status: resolved
+processing:
+  image_order_basis: 文章首尾和段落连续性
+  extraction_method: manual_visual_reading
+  ocr_status: failed_environment
+  ocr_error_summary: Swift compiler and macOS SDK patch versions did not match
+  extraction_confidence: 0.90
+  longbridge_verification: not_run
+  reason_not_run: 本次仅按用户要求创建观点；原文事实声称留待只读核验

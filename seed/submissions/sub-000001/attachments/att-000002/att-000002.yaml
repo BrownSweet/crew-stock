@@ -1,0 +1,14 @@
+id: att-000002
+type: attachment
+parent_id: sub-000001
+display_name: 原始截图第 2 页
+status: active
+created_at: 2026-08-05T07:46:52+08:00
+updated_at: 2026-08-05T07:46:52+08:00
+media_type: image/jpeg
+pixel_dimensions: 1320x2868
+content_hash_algorithm: sha256
+content_hash: c0c222e20798509103c9f7f0d1c45f49d3a74432252c3106461e7f4ffe27c20b
+raw_path: submissions/sub-000001/attachments/att-000002/att-000002.jpg
+source_filename: codex-clipboard-0d019702-63d4-4e5a-a722-ce45c74532c5.jpg
+page_order: 2

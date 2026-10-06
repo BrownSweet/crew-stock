@@ -1,0 +1,22 @@
+id: evd-000016
+type: evidence
+parent_id: cmp-000001
+display_name: NVIDIA 最新新闻列表
+status: active
+created_at: 2026-08-05T08:12:10+08:00
+updated_at: 2026-08-05T08:12:10+08:00
+as_of: 2026-08-05
+captured_at: 2026-08-05T08:12:10+08:00
+content_classification: opinion
+source: longbridge
+transport: mcp
+tool: mcp__codex_apps__longbridge_news
+parameters_json: '{"symbol":"NVDA.US"}'
+raw_path: companies/cmp-000001/evidence/news/evd-000016/evd-000016.json
+content_hash_algorithm: sha256
+content_hash: 51778058733b886d32694c765976d7470f6b89d4787aca4188ba4ad5fc60290f
+confidence: high
+acquisition_status: success
+schema_version: 1
+notes: 含新闻摘要和链接；未抓取每篇正文，摘要不能替代原始报道核验。
+

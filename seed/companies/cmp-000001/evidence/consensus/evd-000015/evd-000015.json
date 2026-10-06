@@ -1,0 +1,53 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"analyst\":{\"evaluate\":{\"buy\":48,\"over\":10,\"hold\":2,\"under\":0,\"sell\":1,\"total\":62,\"start_date\":\"2026-07-31T00:00:00Z\",\"end_date\":\"0\",\"no_opinion\":1},\"target\":{\"highest_price\":\"500.000\",\"lowest_price\":\"180.000\",\"prev_close\":\"206.64\",\"start_date\":\"2026-07-31T00:00:00Z\",\"end_date\":\"0\"},\"industry_id\":87081,\"industry_name\":\"半导体厂商\",\"industry_rank\":1,\"industry_total\":75,\"industry_mean\":14,\"industry_median\":8},\"instratings\":{\"updated_at\":\"2026 年 7 月 31 日\",\"recommend\":\"strong_buy\",\"target\":\"302.82759\",\"change\":\"42.88364159667831\",\"ccy_symbol\":\"$\",\"evaluate\":{\"strong_buy\":48,\"buy\":10,\"hold\":2,\"sell\":1,\"under\":0,\"date\":\"\"}}}"
+    }
+  ],
+  "structuredContent": {
+    "analyst": {
+      "evaluate": {
+        "buy": 48,
+        "over": 10,
+        "hold": 2,
+        "under": 0,
+        "sell": 1,
+        "total": 62,
+        "start_date": "2026-07-31T00:00:00Z",
+        "end_date": "0",
+        "no_opinion": 1
+      },
+      "target": {
+        "highest_price": "500.000",
+        "lowest_price": "180.000",
+        "prev_close": "206.64",
+        "start_date": "2026-07-31T00:00:00Z",
+        "end_date": "0"
+      },
+      "industry_id": 87081,
+      "industry_name": "半导体厂商",
+      "industry_rank": 1,
+      "industry_total": 75,
+      "industry_mean": 14,
+      "industry_median": 8
+    },
+    "instratings": {
+      "updated_at": "2026 年 7 月 31 日",
+      "recommend": "strong_buy",
+      "target": "302.82759",
+      "change": "42.88364159667831",
+      "ccy_symbol": "$",
+      "evaluate": {
+        "strong_buy": 48,
+        "buy": 10,
+        "hold": 2,
+        "sell": 1,
+        "under": 0,
+        "date": ""
+      }
+    }
+  },
+  "isError": false
+}
+

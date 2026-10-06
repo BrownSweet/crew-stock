@@ -1,0 +1,22 @@
+id: evd-000010
+type: evidence
+parent_id: sec-000001
+display_name: NVDA.US 当前估值与同行比较
+status: active
+created_at: 2026-08-05T08:12:10+08:00
+updated_at: 2026-08-05T08:12:10+08:00
+as_of: 2026-08-03
+captured_at: 2026-08-05T08:12:10+08:00
+content_classification: fact
+source: longbridge
+transport: mcp
+tool: mcp__codex_apps__longbridge_valuation
+parameters_json: '{"symbol":"NVDA.US"}'
+raw_path: companies/cmp-000001/securities/sec-000001/evidence/valuation/evd-000010/evd-000010.json
+content_hash_algorithm: sha256
+content_hash: 5008a290a3b886a8ad882531fc0fc7ffb35c03f5b8a2d195e89e5e82a0dd610a
+confidence: high
+acquisition_status: success
+schema_version: 1
+notes: 估值页面 EOD 口径；PE 与 calc_indexes 点时口径不同。
+

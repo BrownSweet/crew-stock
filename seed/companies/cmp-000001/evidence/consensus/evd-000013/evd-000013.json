@@ -1,0 +1,498 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"items\":[{\"forecast_eps_median\":\"8.475\",\"forecast_eps_mean\":\"8.604\",\"forecast_eps_lowest\":\"6.7\",\"forecast_eps_highest\":\"10.773\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-02-25T00:00:00Z\",\"forecast_end_date\":\"2026-02-26T00:00:00Z\"},{\"forecast_eps_median\":\"8.777\",\"forecast_eps_mean\":\"9.056\",\"forecast_eps_lowest\":\"7.74\",\"forecast_eps_highest\":\"10.987\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-02-26T00:00:00Z\",\"forecast_end_date\":\"2026-03-02T00:00:00Z\"},{\"forecast_eps_median\":\"8.785\",\"forecast_eps_mean\":\"9.073\",\"forecast_eps_lowest\":\"7.74\",\"forecast_eps_highest\":\"10.987\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-03-02T00:00:00Z\",\"forecast_end_date\":\"2026-03-03T00:00:00Z\"},{\"forecast_eps_median\":\"8.773\",\"forecast_eps_mean\":\"9.051\",\"forecast_eps_lowest\":\"7.74\",\"forecast_eps_highest\":\"10.987\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-03-03T00:00:00Z\",\"forecast_end_date\":\"2026-03-08T00:00:00Z\"},{\"forecast_eps_median\":\"8.761\",\"forecast_eps_mean\":\"9.009\",\"forecast_eps_lowest\":\"7.74\",\"forecast_eps_highest\":\"10.927\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-03-08T00:00:00Z\",\"forecast_end_date\":\"2026-03-09T00:00:00Z\"},{\"forecast_eps_median\":\"8.761\",\"forecast_eps_mean\":\"9.009\",\"forecast_eps_lowest\":\"7.74\",\"forecast_eps_highest\":\"10.927\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-03-09T00:00:00Z\",\"forecast_end_date\":\"2026-03-10T00:00:00Z\"},{\"forecast_eps_median\":\"8.761\",\"forecast_eps_mean\":\"9.009\",\"forecast_eps_lowest\":\"7.74\",\"forecast_eps_highest\":\"10.927\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-03-10T00:00:00Z\",\"forecast_end_date\":\"2026-03-11T00:00:00Z\"},{\"forecast_eps_median\":\"8.761\",\"forecast_eps_mean\":\"9.009\",\"forecast_eps_lowest\":\"7.74\",\"forecast_eps_highest\":\"10.927\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-03-11T00:00:00Z\",\"forecast_end_date\":\"2026-03-12T00:00:00Z\"},{\"forecast_eps_median\":\"8.773\",\"forecast_eps_mean\":\"9.012\",\"forecast_eps_lowest\":\"7.74\",\"forecast_eps_highest\":\"10.927\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-03-12T00:00:00Z\",\"forecast_end_date\":\"2026-03-17T00:00:00Z\"},{\"forecast_eps_median\":\"8.761\",\"forecast_eps_mean\":\"9.01\",\"forecast_eps_lowest\":\"7.74\",\"forecast_eps_highest\":\"10.927\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-03-17T00:00:00Z\",\"forecast_end_date\":\"2026-03-18T00:00:00Z\"},{\"forecast_eps_median\":\"8.86\",\"forecast_eps_mean\":\"9.108\",\"forecast_eps_lowest\":\"7.77\",\"forecast_eps_highest\":\"10.927\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-03-18T00:00:00Z\",\"forecast_end_date\":\"2026-03-19T00:00:00Z\"},{\"forecast_eps_median\":\"8.92\",\"forecast_eps_mean\":\"9.134\",\"forecast_eps_lowest\":\"7.77\",\"forecast_eps_highest\":\"10.927\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-03-19T00:00:00Z\",\"forecast_end_date\":\"2026-03-20T00:00:00Z\"},{\"forecast_eps_median\":\"8.92\",\"forecast_eps_mean\":\"9.134\",\"forecast_eps_lowest\":\"7.77\",\"forecast_eps_highest\":\"10.927\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-03-23T00:00:00Z\",\"forecast_end_date\":\"2026-03-27T00:00:00Z\"},{\"forecast_eps_median\":\"8.92\",\"forecast_eps_mean\":\"9.134\",\"forecast_eps_lowest\":\"7.77\",\"forecast_eps_highest\":\"10.927\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-03-27T00:00:00Z\",\"forecast_end_date\":\"2026-03-31T00:00:00Z\"},{\"forecast_eps_median\":\"8.92\",\"forecast_eps_mean\":\"9.134\",\"forecast_eps_lowest\":\"7.77\",\"forecast_eps_highest\":\"10.927\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-03-31T00:00:00Z\",\"forecast_end_date\":\"2026-04-11T00:00:00Z\"},{\"forecast_eps_median\":\"8.916\",\"forecast_eps_mean\":\"9.139\",\"forecast_eps_lowest\":\"7.77\",\"forecast_eps_highest\":\"10.927\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-04-11T00:00:00Z\",\"forecast_end_date\":\"2026-04-13T00:00:00Z\"},{\"forecast_eps_median\":\"8.916\",\"forecast_eps_mean\":\"9.139\",\"forecast_eps_lowest\":\"7.77\",\"forecast_eps_highest\":\"10.927\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-04-13T00:00:00Z\",\"forecast_end_date\":\"2026-04-17T00:00:00Z\"},{\"forecast_eps_median\":\"8.98\",\"forecast_eps_mean\":\"9.154\",\"forecast_eps_lowest\":\"7.77\",\"forecast_eps_highest\":\"10.927\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-04-17T00:00:00Z\",\"forecast_end_date\":\"2026-04-20T00:00:00Z\"},{\"forecast_eps_median\":\"8.98\",\"forecast_eps_mean\":\"9.156\",\"forecast_eps_lowest\":\"7.77\",\"forecast_eps_highest\":\"10.927\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-04-20T00:00:00Z\",\"forecast_end_date\":\"2026-05-04T00:00:00Z\"},{\"forecast_eps_median\":\"8.98\",\"forecast_eps_mean\":\"9.156\",\"forecast_eps_lowest\":\"7.77\",\"forecast_eps_highest\":\"10.927\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-05-04T00:00:00Z\",\"forecast_end_date\":\"2026-05-07T00:00:00Z\"},{\"forecast_eps_median\":\"8.98\",\"forecast_eps_mean\":\"9.158\",\"forecast_eps_lowest\":\"7.77\",\"forecast_eps_highest\":\"10.927\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-05-07T00:00:00Z\",\"forecast_end_date\":\"2026-05-11T00:00:00Z\"},{\"forecast_eps_median\":\"8.98\",\"forecast_eps_mean\":\"9.158\",\"forecast_eps_lowest\":\"7.77\",\"forecast_eps_highest\":\"10.927\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-05-11T00:00:00Z\",\"forecast_end_date\":\"2026-05-12T00:00:00Z\"},{\"forecast_eps_median\":\"9.115\",\"forecast_eps_mean\":\"9.185\",\"forecast_eps_lowest\":\"7.77\",\"forecast_eps_highest\":\"10.927\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-05-12T00:00:00Z\",\"forecast_end_date\":\"2026-05-13T00:00:00Z\"},{\"forecast_eps_median\":\"9.198\",\"forecast_eps_mean\":\"9.213\",\"forecast_eps_lowest\":\"7.77\",\"forecast_eps_highest\":\"10.927\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-05-13T00:00:00Z\",\"forecast_end_date\":\"2026-05-14T00:00:00Z\"},{\"forecast_eps_median\":\"9.198\",\"forecast_eps_mean\":\"9.223\",\"forecast_eps_lowest\":\"7.77\",\"forecast_eps_highest\":\"11.004\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-05-14T00:00:00Z\",\"forecast_end_date\":\"2026-05-15T00:00:00Z\"},{\"forecast_eps_median\":\"9.215\",\"forecast_eps_mean\":\"9.243\",\"forecast_eps_lowest\":\"7.77\",\"forecast_eps_highest\":\"11.004\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-05-15T00:00:00Z\",\"forecast_end_date\":\"2026-05-16T00:00:00Z\"},{\"forecast_eps_median\":\"9.215\",\"forecast_eps_mean\":\"9.241\",\"forecast_eps_lowest\":\"7.77\",\"forecast_eps_highest\":\"11.004\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-05-16T00:00:00Z\",\"forecast_end_date\":\"2026-05-17T00:00:00Z\"},{\"forecast_eps_median\":\"9.23\",\"forecast_eps_mean\":\"9.258\",\"forecast_eps_lowest\":\"7.77\",\"forecast_eps_highest\":\"11.004\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-05-17T00:00:00Z\",\"forecast_end_date\":\"2026-05-18T00:00:00Z\"},{\"forecast_eps_median\":\"9.245\",\"forecast_eps_mean\":\"9.281\",\"forecast_eps_lowest\":\"7.77\",\"forecast_eps_highest\":\"11.004\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-05-18T00:00:00Z\",\"forecast_end_date\":\"2026-05-19T00:00:00Z\"},{\"forecast_eps_median\":\"9.245\",\"forecast_eps_mean\":\"9.281\",\"forecast_eps_lowest\":\"7.77\",\"forecast_eps_highest\":\"11.004\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-05-19T00:00:00Z\",\"forecast_end_date\":\"2026-05-20T00:00:00Z\"},{\"forecast_eps_median\":\"9.42\",\"forecast_eps_mean\":\"9.51\",\"forecast_eps_lowest\":\"8.32\",\"forecast_eps_highest\":\"10.844\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-05-20T00:00:00Z\",\"forecast_end_date\":\"2026-05-21T00:00:00Z\"},{\"forecast_eps_median\":\"9.84\",\"forecast_eps_mean\":\"9.937\",\"forecast_eps_lowest\":\"8.601\",\"forecast_eps_highest\":\"11.59\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-05-21T00:00:00Z\",\"forecast_end_date\":\"2026-05-22T00:00:00Z\"},{\"forecast_eps_median\":\"9.84\",\"forecast_eps_mean\":\"9.938\",\"forecast_eps_lowest\":\"8.601\",\"forecast_eps_highest\":\"11.59\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-05-22T00:00:00Z\",\"forecast_end_date\":\"2026-06-01T00:00:00Z\"},{\"forecast_eps_median\":\"9.84\",\"forecast_eps_mean\":\"9.938\",\"forecast_eps_lowest\":\"8.601\",\"forecast_eps_highest\":\"11.59\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-06-01T00:00:00Z\",\"forecast_end_date\":\"2026-06-02T00:00:00Z\"},{\"forecast_eps_median\":\"9.84\",\"forecast_eps_mean\":\"9.938\",\"forecast_eps_lowest\":\"8.601\",\"forecast_eps_highest\":\"11.59\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-06-02T00:00:00Z\",\"forecast_end_date\":\"2026-06-10T00:00:00Z\"},{\"forecast_eps_median\":\"9.84\",\"forecast_eps_mean\":\"9.938\",\"forecast_eps_lowest\":\"8.601\",\"forecast_eps_highest\":\"11.59\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-06-10T00:00:00Z\",\"forecast_end_date\":\"2026-07-09T00:00:00Z\"},{\"forecast_eps_median\":\"9.84\",\"forecast_eps_mean\":\"9.938\",\"forecast_eps_lowest\":\"8.601\",\"forecast_eps_highest\":\"11.59\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-07-09T00:00:00Z\",\"forecast_end_date\":\"2026-07-10T00:00:00Z\"},{\"forecast_eps_median\":\"9.855\",\"forecast_eps_mean\":\"9.954\",\"forecast_eps_lowest\":\"8.601\",\"forecast_eps_highest\":\"11.59\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-07-10T00:00:00Z\",\"forecast_end_date\":\"2026-07-14T00:00:00Z\"},{\"forecast_eps_median\":\"9.86\",\"forecast_eps_mean\":\"9.965\",\"forecast_eps_lowest\":\"8.601\",\"forecast_eps_highest\":\"11.59\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-07-14T00:00:00Z\",\"forecast_end_date\":\"2026-07-15T00:00:00Z\"},{\"forecast_eps_median\":\"9.855\",\"forecast_eps_mean\":\"9.947\",\"forecast_eps_lowest\":\"8.601\",\"forecast_eps_highest\":\"11.59\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-07-15T00:00:00Z\",\"forecast_end_date\":\"2026-07-16T00:00:00Z\"},{\"forecast_eps_median\":\"9.865\",\"forecast_eps_mean\":\"9.957\",\"forecast_eps_lowest\":\"8.601\",\"forecast_eps_highest\":\"11.59\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-07-16T00:00:00Z\",\"forecast_end_date\":\"2026-07-20T00:00:00Z\"},{\"forecast_eps_median\":\"9.865\",\"forecast_eps_mean\":\"9.957\",\"forecast_eps_lowest\":\"8.601\",\"forecast_eps_highest\":\"11.59\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-07-20T00:00:00Z\",\"forecast_end_date\":\"2026-07-21T00:00:00Z\"},{\"forecast_eps_median\":\"9.872\",\"forecast_eps_mean\":\"9.966\",\"forecast_eps_lowest\":\"8.601\",\"forecast_eps_highest\":\"11.59\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-07-21T00:00:00Z\",\"forecast_end_date\":\"2026-07-31T00:00:00Z\"},{\"forecast_eps_median\":\"9.922\",\"forecast_eps_mean\":\"9.986\",\"forecast_eps_lowest\":\"8.601\",\"forecast_eps_highest\":\"11.59\",\"institution_total\":0,\"institution_up\":0,\"institution_down\":0,\"forecast_start_date\":\"2026-07-31T00:00:00Z\",\"forecast_end_date\":\"0\"}]}"
+    }
+  ],
+  "structuredContent": {
+    "items": [
+      {
+        "forecast_eps_median": "8.475",
+        "forecast_eps_mean": "8.604",
+        "forecast_eps_lowest": "6.7",
+        "forecast_eps_highest": "10.773",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-02-25T00:00:00Z",
+        "forecast_end_date": "2026-02-26T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "8.777",
+        "forecast_eps_mean": "9.056",
+        "forecast_eps_lowest": "7.74",
+        "forecast_eps_highest": "10.987",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-02-26T00:00:00Z",
+        "forecast_end_date": "2026-03-02T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "8.785",
+        "forecast_eps_mean": "9.073",
+        "forecast_eps_lowest": "7.74",
+        "forecast_eps_highest": "10.987",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-03-02T00:00:00Z",
+        "forecast_end_date": "2026-03-03T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "8.773",
+        "forecast_eps_mean": "9.051",
+        "forecast_eps_lowest": "7.74",
+        "forecast_eps_highest": "10.987",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-03-03T00:00:00Z",
+        "forecast_end_date": "2026-03-08T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "8.761",
+        "forecast_eps_mean": "9.009",
+        "forecast_eps_lowest": "7.74",
+        "forecast_eps_highest": "10.927",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-03-08T00:00:00Z",
+        "forecast_end_date": "2026-03-09T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "8.761",
+        "forecast_eps_mean": "9.009",
+        "forecast_eps_lowest": "7.74",
+        "forecast_eps_highest": "10.927",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-03-09T00:00:00Z",
+        "forecast_end_date": "2026-03-10T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "8.761",
+        "forecast_eps_mean": "9.009",
+        "forecast_eps_lowest": "7.74",
+        "forecast_eps_highest": "10.927",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-03-10T00:00:00Z",
+        "forecast_end_date": "2026-03-11T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "8.761",
+        "forecast_eps_mean": "9.009",
+        "forecast_eps_lowest": "7.74",
+        "forecast_eps_highest": "10.927",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-03-11T00:00:00Z",
+        "forecast_end_date": "2026-03-12T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "8.773",
+        "forecast_eps_mean": "9.012",
+        "forecast_eps_lowest": "7.74",
+        "forecast_eps_highest": "10.927",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-03-12T00:00:00Z",
+        "forecast_end_date": "2026-03-17T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "8.761",
+        "forecast_eps_mean": "9.01",
+        "forecast_eps_lowest": "7.74",
+        "forecast_eps_highest": "10.927",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-03-17T00:00:00Z",
+        "forecast_end_date": "2026-03-18T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "8.86",
+        "forecast_eps_mean": "9.108",
+        "forecast_eps_lowest": "7.77",
+        "forecast_eps_highest": "10.927",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-03-18T00:00:00Z",
+        "forecast_end_date": "2026-03-19T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "8.92",
+        "forecast_eps_mean": "9.134",
+        "forecast_eps_lowest": "7.77",
+        "forecast_eps_highest": "10.927",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-03-19T00:00:00Z",
+        "forecast_end_date": "2026-03-20T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "8.92",
+        "forecast_eps_mean": "9.134",
+        "forecast_eps_lowest": "7.77",
+        "forecast_eps_highest": "10.927",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-03-23T00:00:00Z",
+        "forecast_end_date": "2026-03-27T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "8.92",
+        "forecast_eps_mean": "9.134",
+        "forecast_eps_lowest": "7.77",
+        "forecast_eps_highest": "10.927",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-03-27T00:00:00Z",
+        "forecast_end_date": "2026-03-31T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "8.92",
+        "forecast_eps_mean": "9.134",
+        "forecast_eps_lowest": "7.77",
+        "forecast_eps_highest": "10.927",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-03-31T00:00:00Z",
+        "forecast_end_date": "2026-04-11T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "8.916",
+        "forecast_eps_mean": "9.139",
+        "forecast_eps_lowest": "7.77",
+        "forecast_eps_highest": "10.927",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-04-11T00:00:00Z",
+        "forecast_end_date": "2026-04-13T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "8.916",
+        "forecast_eps_mean": "9.139",
+        "forecast_eps_lowest": "7.77",
+        "forecast_eps_highest": "10.927",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-04-13T00:00:00Z",
+        "forecast_end_date": "2026-04-17T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "8.98",
+        "forecast_eps_mean": "9.154",
+        "forecast_eps_lowest": "7.77",
+        "forecast_eps_highest": "10.927",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-04-17T00:00:00Z",
+        "forecast_end_date": "2026-04-20T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "8.98",
+        "forecast_eps_mean": "9.156",
+        "forecast_eps_lowest": "7.77",
+        "forecast_eps_highest": "10.927",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-04-20T00:00:00Z",
+        "forecast_end_date": "2026-05-04T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "8.98",
+        "forecast_eps_mean": "9.156",
+        "forecast_eps_lowest": "7.77",
+        "forecast_eps_highest": "10.927",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-05-04T00:00:00Z",
+        "forecast_end_date": "2026-05-07T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "8.98",
+        "forecast_eps_mean": "9.158",
+        "forecast_eps_lowest": "7.77",
+        "forecast_eps_highest": "10.927",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-05-07T00:00:00Z",
+        "forecast_end_date": "2026-05-11T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "8.98",
+        "forecast_eps_mean": "9.158",
+        "forecast_eps_lowest": "7.77",
+        "forecast_eps_highest": "10.927",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-05-11T00:00:00Z",
+        "forecast_end_date": "2026-05-12T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "9.115",
+        "forecast_eps_mean": "9.185",
+        "forecast_eps_lowest": "7.77",
+        "forecast_eps_highest": "10.927",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-05-12T00:00:00Z",
+        "forecast_end_date": "2026-05-13T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "9.198",
+        "forecast_eps_mean": "9.213",
+        "forecast_eps_lowest": "7.77",
+        "forecast_eps_highest": "10.927",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-05-13T00:00:00Z",
+        "forecast_end_date": "2026-05-14T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "9.198",
+        "forecast_eps_mean": "9.223",
+        "forecast_eps_lowest": "7.77",
+        "forecast_eps_highest": "11.004",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-05-14T00:00:00Z",
+        "forecast_end_date": "2026-05-15T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "9.215",
+        "forecast_eps_mean": "9.243",
+        "forecast_eps_lowest": "7.77",
+        "forecast_eps_highest": "11.004",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-05-15T00:00:00Z",
+        "forecast_end_date": "2026-05-16T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "9.215",
+        "forecast_eps_mean": "9.241",
+        "forecast_eps_lowest": "7.77",
+        "forecast_eps_highest": "11.004",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-05-16T00:00:00Z",
+        "forecast_end_date": "2026-05-17T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "9.23",
+        "forecast_eps_mean": "9.258",
+        "forecast_eps_lowest": "7.77",
+        "forecast_eps_highest": "11.004",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-05-17T00:00:00Z",
+        "forecast_end_date": "2026-05-18T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "9.245",
+        "forecast_eps_mean": "9.281",
+        "forecast_eps_lowest": "7.77",
+        "forecast_eps_highest": "11.004",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-05-18T00:00:00Z",
+        "forecast_end_date": "2026-05-19T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "9.245",
+        "forecast_eps_mean": "9.281",
+        "forecast_eps_lowest": "7.77",
+        "forecast_eps_highest": "11.004",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-05-19T00:00:00Z",
+        "forecast_end_date": "2026-05-20T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "9.42",
+        "forecast_eps_mean": "9.51",
+        "forecast_eps_lowest": "8.32",
+        "forecast_eps_highest": "10.844",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-05-20T00:00:00Z",
+        "forecast_end_date": "2026-05-21T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "9.84",
+        "forecast_eps_mean": "9.937",
+        "forecast_eps_lowest": "8.601",
+        "forecast_eps_highest": "11.59",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-05-21T00:00:00Z",
+        "forecast_end_date": "2026-05-22T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "9.84",
+        "forecast_eps_mean": "9.938",
+        "forecast_eps_lowest": "8.601",
+        "forecast_eps_highest": "11.59",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-05-22T00:00:00Z",
+        "forecast_end_date": "2026-06-01T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "9.84",
+        "forecast_eps_mean": "9.938",
+        "forecast_eps_lowest": "8.601",
+        "forecast_eps_highest": "11.59",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-06-01T00:00:00Z",
+        "forecast_end_date": "2026-06-02T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "9.84",
+        "forecast_eps_mean": "9.938",
+        "forecast_eps_lowest": "8.601",
+        "forecast_eps_highest": "11.59",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-06-02T00:00:00Z",
+        "forecast_end_date": "2026-06-10T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "9.84",
+        "forecast_eps_mean": "9.938",
+        "forecast_eps_lowest": "8.601",
+        "forecast_eps_highest": "11.59",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-06-10T00:00:00Z",
+        "forecast_end_date": "2026-07-09T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "9.84",
+        "forecast_eps_mean": "9.938",
+        "forecast_eps_lowest": "8.601",
+        "forecast_eps_highest": "11.59",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-07-09T00:00:00Z",
+        "forecast_end_date": "2026-07-10T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "9.855",
+        "forecast_eps_mean": "9.954",
+        "forecast_eps_lowest": "8.601",
+        "forecast_eps_highest": "11.59",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-07-10T00:00:00Z",
+        "forecast_end_date": "2026-07-14T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "9.86",
+        "forecast_eps_mean": "9.965",
+        "forecast_eps_lowest": "8.601",
+        "forecast_eps_highest": "11.59",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-07-14T00:00:00Z",
+        "forecast_end_date": "2026-07-15T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "9.855",
+        "forecast_eps_mean": "9.947",
+        "forecast_eps_lowest": "8.601",
+        "forecast_eps_highest": "11.59",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-07-15T00:00:00Z",
+        "forecast_end_date": "2026-07-16T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "9.865",
+        "forecast_eps_mean": "9.957",
+        "forecast_eps_lowest": "8.601",
+        "forecast_eps_highest": "11.59",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-07-16T00:00:00Z",
+        "forecast_end_date": "2026-07-20T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "9.865",
+        "forecast_eps_mean": "9.957",
+        "forecast_eps_lowest": "8.601",
+        "forecast_eps_highest": "11.59",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-07-20T00:00:00Z",
+        "forecast_end_date": "2026-07-21T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "9.872",
+        "forecast_eps_mean": "9.966",
+        "forecast_eps_lowest": "8.601",
+        "forecast_eps_highest": "11.59",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-07-21T00:00:00Z",
+        "forecast_end_date": "2026-07-31T00:00:00Z"
+      },
+      {
+        "forecast_eps_median": "9.922",
+        "forecast_eps_mean": "9.986",
+        "forecast_eps_lowest": "8.601",
+        "forecast_eps_highest": "11.59",
+        "institution_total": 0,
+        "institution_up": 0,
+        "institution_down": 0,
+        "forecast_start_date": "2026-07-31T00:00:00Z",
+        "forecast_end_date": "0"
+      }
+    ]
+  },
+  "isError": false
+}
+

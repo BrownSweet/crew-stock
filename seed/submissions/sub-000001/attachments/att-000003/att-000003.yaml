@@ -1,0 +1,14 @@
+id: att-000003
+type: attachment
+parent_id: sub-000001
+display_name: 原始截图第 3 页
+status: active
+created_at: 2026-08-05T07:46:52+08:00
+updated_at: 2026-08-05T07:46:52+08:00
+media_type: image/jpeg
+pixel_dimensions: 1320x2868
+content_hash_algorithm: sha256
+content_hash: 25229d72f543af9f8b738813b853463168f0b0446859d8e6ec23e6d6a3ed04f1
+raw_path: submissions/sub-000001/attachments/att-000003/att-000003.jpg
+source_filename: codex-clipboard-a522d828-6d85-455f-8afb-4159fcbe2651.jpg
+page_order: 3

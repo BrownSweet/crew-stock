@@ -1,0 +1,200 @@
+version: 1
+effective_date: 2026-08-05
+purpose: company_industry_person_research
+default_policy: deny
+
+rules:
+  read_only_only: true
+  require_longbridge_skill: true
+  skill: longbridge:longbridge
+  record_tool_name_and_arguments: true
+  preserve_raw_response: true
+  max_transport_fallbacks: 1
+  retry_financial_writes: false
+
+mcp:
+  endpoint: https://mcp.longbridge.com
+  allowed_tools:
+    - mcp__codex_apps__longbridge_now
+    - mcp__codex_apps__longbridge_static_info
+    - mcp__codex_apps__longbridge_company
+    - mcp__codex_apps__longbridge_executive
+    - mcp__codex_apps__longbridge_financial_report
+    - mcp__codex_apps__longbridge_financial_report_latest
+    - mcp__codex_apps__longbridge_financial_report_snapshot
+    - mcp__codex_apps__longbridge_financial_report_key_metrics
+    - mcp__codex_apps__longbridge_financial_statement
+    - mcp__codex_apps__longbridge_business_segments
+    - mcp__codex_apps__longbridge_business_segments_history
+    - mcp__codex_apps__longbridge_operating
+    - mcp__codex_apps__longbridge_consensus
+    - mcp__codex_apps__longbridge_forecast_eps
+    - mcp__codex_apps__longbridge_institution_rating
+    - mcp__codex_apps__longbridge_institution_rating_detail
+    - mcp__codex_apps__longbridge_institution_rating_history
+    - mcp__codex_apps__longbridge_institution_rating_industry_rank
+    - mcp__codex_apps__longbridge_institutional_views
+    - mcp__codex_apps__longbridge_valuation
+    - mcp__codex_apps__longbridge_valuation_history
+    - mcp__codex_apps__longbridge_valuation_rank
+    - mcp__codex_apps__longbridge_valuation_comparison
+    - mcp__codex_apps__longbridge_filings
+    - mcp__codex_apps__longbridge_news
+    - mcp__codex_apps__longbridge_news_search
+    - mcp__codex_apps__longbridge_invest_relation
+    - mcp__codex_apps__longbridge_finance_calendar
+    - mcp__codex_apps__longbridge_industry_rank
+    - mcp__codex_apps__longbridge_industry_peers
+    - mcp__codex_apps__longbridge_industry_valuation
+    - mcp__codex_apps__longbridge_industry_valuation_dist
+    - mcp__codex_apps__longbridge_macrodata_indicators
+    - mcp__codex_apps__longbridge_macrodata
+    - mcp__codex_apps__longbridge_shareholder
+    - mcp__codex_apps__longbridge_shareholder_top
+    - mcp__codex_apps__longbridge_shareholder_detail
+    - mcp__codex_apps__longbridge_fund_holder
+    - mcp__codex_apps__longbridge_short_positions
+    - mcp__codex_apps__longbridge_short_trades
+    - mcp__codex_apps__longbridge_dividend
+    - mcp__codex_apps__longbridge_dividend_detail
+    - mcp__codex_apps__longbridge_corp_action
+    - mcp__codex_apps__longbridge_constituent
+    - mcp__codex_apps__longbridge_quote
+    - mcp__codex_apps__longbridge_calc_indexes
+    - mcp__codex_apps__longbridge_candlesticks
+    - mcp__codex_apps__longbridge_history_candlesticks_by_date
+    - mcp__codex_apps__longbridge_history_candlesticks_by_offset
+    - mcp__codex_apps__longbridge_intraday
+    - mcp__codex_apps__longbridge_depth
+    - mcp__codex_apps__longbridge_trades
+    - mcp__codex_apps__longbridge_trade_stats
+    - mcp__codex_apps__longbridge_capital_distribution
+    - mcp__codex_apps__longbridge_capital_flow
+    - mcp__codex_apps__longbridge_market_temperature
+    - mcp__codex_apps__longbridge_history_market_temperature
+    - mcp__codex_apps__longbridge_anomaly
+    - mcp__codex_apps__longbridge_top_movers
+    - mcp__codex_apps__longbridge_market_status
+    - mcp__codex_apps__longbridge_trading_days
+    - mcp__codex_apps__longbridge_trading_session
+    - mcp__codex_apps__longbridge_topic
+    - mcp__codex_apps__longbridge_topic_detail
+    - mcp__codex_apps__longbridge_topic_replies
+    - mcp__codex_apps__longbridge_topic_search
+
+  restricted_account_tools:
+    - mcp__codex_apps__longbridge_account_balance
+    - mcp__codex_apps__longbridge_stock_positions
+    - mcp__codex_apps__longbridge_fund_positions
+    - mcp__codex_apps__longbridge_cash_flow
+    - mcp__codex_apps__longbridge_statement_list
+    - mcp__codex_apps__longbridge_statement_export
+    - mcp__codex_apps__longbridge_today_orders
+    - mcp__codex_apps__longbridge_history_orders
+    - mcp__codex_apps__longbridge_today_executions
+    - mcp__codex_apps__longbridge_history_executions
+    - mcp__codex_apps__longbridge_margin_ratio
+    - mcp__codex_apps__longbridge_short_margin
+    - mcp__codex_apps__longbridge_estimate_max_purchase_quantity
+    - mcp__codex_apps__longbridge_profit_analysis
+    - mcp__codex_apps__longbridge_profit_analysis_detail
+    - mcp__codex_apps__longbridge_profit_analysis_realized
+
+  denied_write_tools:
+    - mcp__codex_apps__longbridge_alert_add
+    - mcp__codex_apps__longbridge_alert_delete
+    - mcp__codex_apps__longbridge_alert_disable
+    - mcp__codex_apps__longbridge_alert_enable
+    - mcp__codex_apps__longbridge_create_watchlist_group
+    - mcp__codex_apps__longbridge_delete_watchlist_group
+    - mcp__codex_apps__longbridge_update_watchlist_group
+    - mcp__codex_apps__longbridge_sharelist_add
+    - mcp__codex_apps__longbridge_sharelist_create
+    - mcp__codex_apps__longbridge_sharelist_delete
+    - mcp__codex_apps__longbridge_sharelist_remove
+    - mcp__codex_apps__longbridge_sharelist_sort
+    - mcp__codex_apps__longbridge_topic_create
+    - mcp__codex_apps__longbridge_topic_create_reply
+
+  denied_name_patterns:
+    - "*order_submit*"
+    - "*order_cancel*"
+    - "*order_replace*"
+    - "*order_buy*"
+    - "*order_sell*"
+    - "*dca_create*"
+    - "*dca_update*"
+    - "*dca_delete*"
+
+cli:
+  required_output_format: json
+  verify_help_before_use: true
+  allowed_read_commands:
+    - quote
+    - depth
+    - trades
+    - intraday
+    - kline
+    - static
+    - calc-index
+    - capital
+    - market-temp
+    - trading
+    - market-status
+    - trade-stats
+    - anomaly
+    - top-movers
+    - financial-report
+    - financial-statement
+    - business-segments
+    - operating
+    - company
+    - executive
+    - dividend
+    - corp-action
+    - invest-relation
+    - forecast-eps
+    - consensus
+    - institution-rating
+    - valuation
+    - valuation-rank
+    - industry-rank
+    - industry-peers
+    - industry-valuation
+    - compare
+    - macrodata
+    - finance-calendar
+    - filing
+    - news
+    - shareholder
+    - fund-holder
+    - insider-trades
+    - investors
+    - short-positions
+    - short-trades
+    - constituent
+    - etf-docs
+
+  denied_command_roots:
+    - order
+    - dca
+    - alert
+    - watchlist
+    - sharelist
+    - assets
+    - portfolio
+    - positions
+    - fund-positions
+    - statement
+    - cash-flow
+    - bank-cards
+    - withdrawals
+    - deposits
+    - margin-ratio
+    - max-qty
+
+validation:
+  fail_on_unknown_tool: true
+  fail_on_write_capability: true
+  fail_on_unrecorded_arguments: true
+  fail_on_missing_raw_response: true

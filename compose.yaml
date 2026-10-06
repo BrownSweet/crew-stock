@@ -1,0 +1,47 @@
+name: crew-stock
+services:
+  app:
+    build:
+      context: .
+      args:
+        VITE_BASE_PATH: ${VITE_BASE_PATH:-/}
+    image: crew-stock:local
+    init: true
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${CREW_STOCK_PORT:-8765}:8000"
+    environment:
+      mysql_ip: ${mysql_ip:?填写 MySQL 地址}
+      mysql_port: ${mysql_port:-3306}
+      mysql_root: ${mysql_root:?填写 MySQL 用户名}
+      mysql_password: ${mysql_password:?填写 MySQL 密码}
+      mysql_database: ${mysql_database:?填写 MySQL 数据库名}
+      ALLOWED_HOSTS: ${ALLOWED_HOSTS:-localhost,127.0.0.1}
+      COOKIE_SECURE: ${COOKIE_SECURE:-false}
+      FORWARDED_ALLOW_IPS: ${FORWARDED_ALLOW_IPS:-127.0.0.1}
+      DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY:-}
+      DEEPSEEK_MODEL: ${DEEPSEEK_MODEL:-deepseek-flash}
+      DEEPSEEK_BASE_URL: ${DEEPSEEK_BASE_URL:-https://api.deepseek.com}
+      LONGBRIDGE_REGION: ${LONGBRIDGE_REGION:-global}
+    volumes:
+      - research-data:/data
+      - longbridge-auth:/home/agent/.longbridge
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    read_only: true
+    tmpfs:
+      - /tmp:rw,nosuid,size=256m,mode=1777
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    pids_limit: 192
+    mem_limit: 3g
+    cpus: 2
+    networks: [research]
+    stop_grace_period: 15s
+
+volumes:
+  research-data:
+  longbridge-auth:
+networks:
+  research:
+    driver: bridge

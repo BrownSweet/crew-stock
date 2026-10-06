@@ -1,0 +1,10 @@
+# 放在已有 HTTPS server {} 内，外层继续使用现有 TLS、代理头和超时配置。
+# Jiami 原来的 /jiami/ location 保持不变；不要保留指向 Crew 的旧 /a location。
+location = /crew {
+    return 308 /crew/$is_args$args;
+}
+
+location ^~ /crew/ {
+    # 不加末尾斜杠，完整保留 /crew/；应用镜像已经编入此前缀。
+    proxy_pass http://43.155.214.55:8765;
+}

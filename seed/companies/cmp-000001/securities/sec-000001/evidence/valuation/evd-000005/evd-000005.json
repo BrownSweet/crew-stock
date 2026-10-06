@@ -1,0 +1,10 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "[{\"symbol\":\"NVDA.US\",\"last_done\":\"211.940\",\"change_value\":\"5.300\",\"change_rate\":\"2.56\",\"volume\":134921997,\"turnover\":\"28536486954.540\",\"ytd_change_rate\":\"13.78\",\"turnover_rate\":\"0.57\",\"total_market_value\":\"5150142000000.00\",\"capital_flow\":null,\"amplitude\":null,\"volume_ratio\":null,\"pe_ttm_ratio\":\"32.27\",\"pb_ratio\":\"26.35\",\"dividend_ratio_ttm\":\"0.13\",\"five_day_change_rate\":null,\"ten_day_change_rate\":null,\"half_year_change_rate\":null,\"five_minutes_change_rate\":null,\"expiry_date\":null,\"strike_price\":null,\"upper_strike_price\":null,\"lower_strike_price\":null,\"outstanding_qty\":null,\"outstanding_ratio\":null,\"premium\":null,\"itm_otm\":null,\"implied_volatility\":null,\"warrant_delta\":null,\"call_price\":null,\"to_call_price\":null,\"effective_leverage\":null,\"leverage_ratio\":null,\"conversion_ratio\":null,\"balance_point\":null,\"open_interest\":null,\"delta\":null,\"gamma\":null,\"theta\":null,\"vega\":null,\"rho\":null}]"
+    }
+  ],
+  "isError": false
+}
+
